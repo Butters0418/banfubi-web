@@ -386,7 +386,7 @@ header p {
 @media screen and (max-width: 575.98px) {
   .pd-box__more {
     font-size: 0.8rem;
-    padding: 2px 8px;
+    padding: 4px 8px;
   }
 }
 

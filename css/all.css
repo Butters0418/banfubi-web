@@ -47,6 +47,10 @@ img {
   max-width: 100%;
 }
 
+.section.code {
+  overflow: hidden;
+}
+
 header {
   background-color: #ccc444;
 }
@@ -477,6 +481,7 @@ header p {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   font-size: 1.75rem;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 1400px) {
@@ -493,6 +498,7 @@ header p {
 
 .pd-box__link span {
   font-size: 1.75rem;
+  line-height: 1.5;
   padding: 0 5px;
 }
 
@@ -719,6 +725,7 @@ header p {
   color: #fc8f4e;
   letter-spacing: 1px;
   font-weight: 600;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -897,6 +904,7 @@ header p {
   font-size: 2rem;
   margin-bottom: 10px;
   text-align: left;
+  line-height: 1;
 }
 
 @media screen and (max-width: 1400px) {
@@ -928,6 +936,7 @@ header p {
   margin-bottom: 5px;
   font-weight: 300;
   font-size: 1.5rem;
+  line-height: 1.25;
   color: #fff;
 }
 

@@ -22,7 +22,7 @@ header {
   }
 }
 
-.top-bar {
+.website__top-bar {
   display: none;
   @include media($pad) {
     position: fixed;
@@ -49,7 +49,7 @@ header {
   }
 }
 
-.banner {
+.website__banner {
   @include media($pad) {
     padding-top: 45px;
   }
@@ -96,7 +96,7 @@ header {
   }
 }
 //section
-section {
+.website__section {
   padding: 50px;
   @include media($padLg) {
     padding: 30px 20px;

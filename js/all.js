@@ -5,7 +5,7 @@ $(function () {
     $(this).html(newText);
   })
   //banner 輪播
-  var bannerSwiper = new Swiper('.banner .swiper-container', {
+  var websiteBannerSwiper = new Swiper('.website__banner .swiper-container', {
     spaceBetween: 0,
     pagination: {
       clickable: true,

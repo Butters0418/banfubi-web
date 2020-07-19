@@ -48,7 +48,7 @@ img {
 }
 
 section.code {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -121,13 +121,7 @@ header p {
 
 @media screen and (max-width: 767.98px) {
   .website__banner {
-    padding-top: 45px;
-  }
-}
-
-@media screen and (max-width: 575.98px) {
-  .website__banner {
-    padding-top: 9vw;
+    padding-top: 40px;
   }
 }
 

@@ -1,6 +1,6 @@
 @import 'init';
 section.code {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 header {
   background-color: #ccc444;
@@ -53,10 +53,7 @@ header {
 
 .website__banner {
   @include media($pad) {
-    padding-top: 45px;
-  }
-  @include media($mobile) {
-    padding-top: 9vw;
+    padding-top: 40px;
   }
   .swiper-button-next,
   .swiper-button-prev {

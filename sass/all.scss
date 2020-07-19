@@ -210,7 +210,10 @@ header {
     h3 {
       font-size: 3rem;
       color: #f6921c;
-      margin-bottom: 0;
+      margin: 0;
+      line-height: 1.25;
+      font-weight: bold;
+      letter-spacing: 1px;
       @include media($pad) {
         font-size: 2rem;
       }

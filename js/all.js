@@ -1,92 +1,92 @@
 $(function () {
-  // [側邊選單] 
-  var $sidenav = $('.sidenav');
-  // [側邊選單]--// 收合
-  $sidenav.on('click', '.sidenav__btn a', function (e) {
-    e.preventDefault();
-    $(this).parent().parent().toggleClass('sidenav--hide');
+  let textLength = $(window).width() > 768 ? 155 : 110;
+  $('.blog__footer p').each(function (item, index) {
+    let newText = $(this).text().slice(0, textLength) + '...';
+    $(this).html(newText);
   })
-  if ($(window).width() < 768) {
-    $('.sidenav').removeClass('sidenav--hide');
-  }
-  var $rightNav = $('.sidenav--right');
-  // [右邊選單]--// 側選單是否存在
-  var $sidenavTop;
-  if ($rightNav.length > 0) {
-    $sidenavTop = $rightNav.offset().top;
-  } else {
-    $sidenavTop = 0;
-  }
-  // [右邊選單]--// 手機版置頂
-  function rightnavFixedTop() {
-    var $windowTop = $(window).scrollTop();
-    if ($windowTop > $sidenavTop) {
-      $sidenav.addClass('fixed');
-    }
-    else {
-      $sidenav.removeClass('fixed');
-    }
-  }
-  // [左邊選單]手機底部面板
-  $('.other__loaction').on('click', function (e) {
-    e.preventDefault();
-    if ($('.sidenav--left').hasClass('tab-show')) {
-      $('.sidenav--left').removeClass('tab-show');
-    } else {
-      $('.sidenav--left').addClass('tab-show');
-    }
-  })
-  $('.footer__baord--dismiss').on('click', function (e) {
-    $('.sidenav--left').removeClass('tab-show');
-  })
-  // [左邊選單]手機底部面板 footer增高
-  if ($('.footer__board').length !== 0 && $('.sidenav--left .sidenav__btn').is(':hidden')) {
-    $('.footer').css('padding-bottom', '60px');
-    $('.right__box').css('bottom', '80px')
-  }
+  //banner 輪播
+  var bannerSwiper = new Swiper('.banner .swiper-container', {
+    spaceBetween: 0,
+    pagination: {
+      clickable: true,
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 
-  // [右邊GoTop && 桌機選單置頂]--// 滾動出現
-  function rightBox() {
-    var $windowTop = $(window).scrollTop();
-    if ($windowTop >= 1) {
-      $('.right__box').fadeIn(300);
-    } else {
-      $('.right__box').fadeOut(300);
-    }
-  }
-  function sidenav() {
-    var $windowTop = $(window).scrollTop();
-    if ($(window).width() > 768) {
-      if ($windowTop >= 10) {
-        $('.sidenav').addClass('toTop');
-      } else {
-        $('.sidenav').removeClass('toTop');
+  // pd-box1
+  var pd1Swiper = new Swiper('.pd-box1 .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    simulateTouch: false,
+    breakpoints: {
+      767: {
+        slidesPerView: 2,
+        simulateTouch: true,
+        spaceBetween: 8,
+        navigation: {
+          nextEl: '.pd-box1 .swiper-next',
+          prevEl: '.pd-box1 .swiper-prev',
+        },
       }
     }
-  }
-  // [右邊GoTop]--// gotop
-  $('.gotop').click(function () {
-    $('html,body').animate({ scrollTop: '0px' }, 300);
   });
-  // [錨點]--// 判斷滑動位置
+  // pd-box2
+  var pd2Swiper = new Swiper('.pd-box2 .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    simulateTouch: false,
+    breakpoints: {
+      767: {
+        slidesPerView: 2,
+        simulateTouch: true,
+        spaceBetween: 8,
+        navigation: {
+          nextEl: '.pd-box2 .swiper-next',
+          prevEl: '.pd-box2 .swiper-prev',
+        },
+      }
+    }
+  });
+  // pd-box3
+  var pd3Swiper = new Swiper('.pd-box3 .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    simulateTouch: false,
+    breakpoints: {
+      767: {
+        slidesPerView: 2,
+        simulateTouch: true,
+        spaceBetween: 8,
+        navigation: {
+          nextEl: '.pd-box3 .swiper-next',
+          prevEl: '.pd-box3 .swiper-prev',
+        },
+      }
+    }
+  });
+  // blog
+  var blogSlider = new Swiper('.blog__slider .swiper-container', {
+    slidesPerView: 1,
+    pagination: {
+      clickable: true,
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.blog__slider .swiper-next',
+      prevEl: '.blog__slider .swiper-prev',
+    },
+  });
+  // scroll
   $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
-    var target = $(this).attr('href');
-    if ($rightNav.hasClass('fixed')) {
-      targetTop = $(target).offset().top - 38;
-    } else if ($(window).width() < 769) {
-      targetTop = $(target).offset().top - 74;
-    } else if ($(window).width() >= 769) {
-      targetTop = $(target).offset().top;
-    }
+    let target = $(this).attr('href');
+    let targetTop = $(target).offset().top - 80;
     $('html, body').stop().animate({
       scrollTop: targetTop
     }, 300);
   });
-  // scroll event
-  $(window).on('scroll', function () {
-    rightBox();
-    sidenav();
-    rightnavFixedTop();
-  })
-});
+})

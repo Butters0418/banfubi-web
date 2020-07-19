@@ -14,7 +14,7 @@ $(function () {
       console.log('All img load')
     }
   }
-  var loadingtime = 1500;
+  var loadingtime = 1000;
   function countDown() {
     console.log(loadingtime)
     loadingtime -= 200

@@ -1,4 +1,8 @@
 $(function () {
+  setTimeout(() => {
+    $('.loading_mask').addClass('fadeOut');
+  }, 300);
+
   let textLength = $(window).width() > 768 ? 155 : 110;
   $('.blog__footer p').each(function (item, index) {
     let newText = $(this).text().slice(0, textLength) + '...';

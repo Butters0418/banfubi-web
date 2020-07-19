@@ -230,6 +230,7 @@ header {
     padding: 4px 24px;
     border-radius: 20px;
     background-color: #fff;
+    line-height: 1.5;
     @include media($pad) {
       font-size: 1.25rem;
       padding: 2px 16px;

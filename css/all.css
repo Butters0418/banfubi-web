@@ -373,6 +373,7 @@ header p {
   padding: 4px 24px;
   border-radius: 20px;
   background-color: #fff;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 767.98px) {

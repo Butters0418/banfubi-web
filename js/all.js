@@ -84,7 +84,7 @@ $(function () {
   $('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
     let target = $(this).attr('href');
-    let targetTop = $(target).offset().top - 80;
+    let targetTop = $(target).offset().top - 100;
     $('html, body').stop().animate({
       scrollTop: targetTop
     }, 300);

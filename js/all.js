@@ -7,6 +7,8 @@ $(function () {
   //banner 輪播
   var websiteBannerSwiper = new Swiper('.website__banner .swiper-container', {
     spaceBetween: 0,
+    loop: true,
+    autoplay: true,
     pagination: {
       clickable: true,
       el: '.swiper-pagination',

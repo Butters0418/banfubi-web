@@ -2,6 +2,10 @@
 /* loading動畫 */
 .loading_mask {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   z-index: 99;
   height: 100%;

@@ -1,7 +1,33 @@
 $(function () {
-  setTimeout(() => {
-    $('.loading_mask').addClass('fadeOut');
-  }, 300);
+  var imgs = document.images,
+    len = imgs.length,
+    counter = 0;
+  [].forEach.call(imgs, function (img) {
+    if (img.complete)
+      incrementCounter();
+    else
+      img.addEventListener('load', incrementCounter, false);
+  });
+  function incrementCounter() {
+    counter++;
+    if (counter === len) {
+      console.log('All img load')
+    }
+  }
+  var loadingtime = 1500;
+  function countDown() {
+    console.log(loadingtime)
+    loadingtime -= 200
+    if (loadingtime < 0 || counter === len) {
+      clearInterval(timer);
+      $('.loading_mask').fadeOut(300);
+    }
+  }
+  var timer = setInterval(countDown, 200);
+
+
+
+
 
   let textLength = $(window).width() > 768 ? 155 : 110;
   $('.blog__footer p').each(function (item, index) {

@@ -112,7 +112,7 @@ header {
     padding: 30px 10px;
   }
   &.section1 {
-    background-color: #fff6e9;
+    background-color: #fff;
   }
   &.section2 {
     background-color: #ffe8a9;
@@ -155,6 +155,10 @@ header {
     .section2 & {
       border-color: #fff;
     }
+  }
+  > span {
+    @extend %fontYen;
+    font-weight: 600;
   }
   > img {
     margin-right: 10px;
@@ -215,38 +219,40 @@ header {
       }
     }
     h3 {
-      font-size: 3rem;
+      font-size: 2.6rem;
       color: #f6921c;
       margin: 0;
-      line-height: 1.25;
+      line-height: 1;
       font-weight: bold;
       letter-spacing: 1px;
+      @extend %fontYen;
       @include media($pad) {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
       @include media($mobile) {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
       }
     }
   }
   &__more {
     color: #f05816;
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px 24px;
-    border-radius: 20px;
+    padding: 4px 24px 2px;
+    border-radius: 50px;
     background-color: #fff;
     line-height: 1.5;
+    @extend %fontYen;
+    font-weight: 600;
     @include media($pad) {
       font-size: 1.25rem;
-      padding: 2px 16px;
-      border-radius: 15px;
+      padding: 2px 16px 0px;
     }
     @include media($mobile) {
-      font-size: 0.8rem;
-      padding: 4px 8px;
+      font-size: 12px;
+      padding: 4px 10px 2px;
     }
     &:hover {
       color: #f05816;
@@ -259,17 +265,18 @@ header {
       content: '';
       display: inline-block;
       margin-left: 5px;
+      margin-bottom: 3px;
       transition: 0.3s;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 15px 0 15px 22px;
+      border-width: 12px 0 12px 20px;
       border-color: transparent transparent transparent #f6921c;
       @include media($pad) {
         border-width: 10px 0 10px 16px;
       }
       @include media($mobile) {
-        border-width: 6px 0 6px 10px;
+        border-width: 5px 0 5px 8px;
       }
     }
   }
@@ -279,17 +286,19 @@ header {
     background-color: #fff;
     border-radius: 0 0 30px 30px;
     padding: 25px 65px 30px;
+    border: 5px solid #ffe88b;
+    border-top: none;
     @include media($laptop) {
       padding: 15px 40px 20px;
     }
     @include media($mobile) {
       padding: 10px 25px 15px;
       border-radius: 0 0 15px 15px;
+      border-width: 3px;
     }
   }
   &__link {
     display: block;
-    border: 3px solid #fa8d4c;
     padding: 5px;
     color: inherit;
     transition: 0.3s !important;
@@ -306,7 +315,7 @@ header {
     }
     p {
       transition: 0.3s;
-      font-size: 1.75rem;
+      font-size: 1.4rem;
       line-height: 1.5;
       @include media($laptop) {
         font-size: 1.2rem;
@@ -368,6 +377,9 @@ header {
       color: #327e08;
     }
   }
+  .pd-box__content {
+    border-color: #aadc8e;
+  }
   .pd-box__more {
     color: #338a06;
     &:hover {
@@ -378,7 +390,6 @@ header {
     }
   }
   .pd-box__link {
-    border-color: #5fc627;
     &:hover p {
       color: #327e08;
     }
@@ -387,24 +398,47 @@ header {
 //purple
 .pd-box.purple {
   .pd-box__title {
-    background-color: #e4cdeb;
+    background-color: #ffcccf;
     h3 {
-      color: #9047a5;
+      color: #e96068;
     }
   }
+  .pd-box__content {
+    border-color: #ffcccf;
+  }
   .pd-box__more {
-    color: #862ba0;
+    color: #e96068;
     &:hover {
-      color: #862ba0;
+      color: #e96068;
     }
     &:after {
-      border-color: transparent transparent transparent #ad61c2;
+      border-color: transparent transparent transparent #e96068;
     }
   }
   .pd-box__link {
-    border-color: #e098f4;
     &:hover p {
-      color: #9047a5;
+      color: #e96068;
+    }
+  }
+}
+
+.pd-box4 {
+  .row {
+    margin: 0 -6px;
+  }
+  [class^='col'] {
+    padding: 0 6px;
+    margin-bottom: 12px;
+  }
+  a {
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    &:hover img {
+      opacity: 0.7;
+    }
+    img {
+      transition: 0.3s;
     }
   }
 }
@@ -480,15 +514,15 @@ header {
     &__name {
       margin-left: 15px;
       text-align: left;
-      font-size: 2.25rem;
+      font-size: 2.5rem;
       color: #fc8f4e;
       letter-spacing: 1px;
       font-weight: 600;
-      line-height: 1.5;
+      line-height: 1.4;
       @include media($pad) {
         font-size: 6vw;
       }
-      span {
+      &--pd {
         font-size: 0.5em;
         font-weight: 400;
         display: inline-block;
@@ -496,6 +530,11 @@ header {
         background-color: #fc8f4e;
         color: #fff;
         border-radius: 30px;
+      }
+      &--title {
+        @extend %fontYen;
+        font-weight: 600;
+        display: block;
       }
     }
     &__body {
@@ -563,6 +602,10 @@ header {
   }
   [class^='col'] {
     margin-bottom: 20px;
+    transition: 0.3s;
+    &:hover {
+      transform: translateY(-5px);
+    }
   }
 }
 
@@ -574,6 +617,7 @@ header {
   [class^='col'] {
     @include media($mobile) {
       padding: 0 6px;
+      margin-bottom: 10px;
     }
     img {
       @include media($mobile) {
@@ -614,8 +658,11 @@ header {
     max-width: 120px;
   }
   @include media($pad) {
-    max-width: 180px;
-    margin-bottom: 10px;
+    max-width: 60px;
+  }
+  @include media($mobile) {
+    margin-right: 0;
+    margin-left: auto;
   }
 }
 .footer__title {
@@ -636,11 +683,11 @@ header {
   margin: 0;
   list-style: none;
   text-align: left;
-  @include media($pad) {
-    text-align: center;
+  @include media($mobile) {
+    display: inline-block;
   }
   li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 1.25;
@@ -649,7 +696,11 @@ header {
       font-size: 1.2rem;
     }
     @include media($padLg) {
+      font-size: 1.2rem;
+    }
+    @include media($mobile) {
       font-size: 1rem;
+      margin-bottom: 5px;
     }
   }
   a {
@@ -660,6 +711,11 @@ header {
       color: #fff;
       text-decoration: none;
     }
+  }
+}
+.text-md-center {
+  @include media($mobile) {
+    text-align: center;
   }
 }
 

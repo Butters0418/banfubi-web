@@ -50,8 +50,8 @@ $(function () {
   });
 
   // pd-box1
-  var pd1Swiper = new Swiper('.pd-box1 .swiper-container', {
-    slidesPerView: 3,
+  var pd1Swiper = new Swiper('#pd-box1 .swiper-container', {
+    slidesPerView: 4,
     spaceBetween: 40,
     simulateTouch: false,
     breakpoints: {
@@ -60,15 +60,15 @@ $(function () {
         simulateTouch: true,
         spaceBetween: 8,
         navigation: {
-          nextEl: '.pd-box1 .swiper-next',
-          prevEl: '.pd-box1 .swiper-prev',
+          nextEl: '#pd-box1 .swiper-next',
+          prevEl: '#pd-box1 .swiper-prev',
         },
       }
     }
   });
   // pd-box2
-  var pd2Swiper = new Swiper('.pd-box2 .swiper-container', {
-    slidesPerView: 3,
+  var pd2Swiper = new Swiper('#pd-box2 .swiper-container', {
+    slidesPerView: 4,
     spaceBetween: 40,
     simulateTouch: false,
     breakpoints: {
@@ -77,15 +77,15 @@ $(function () {
         simulateTouch: true,
         spaceBetween: 8,
         navigation: {
-          nextEl: '.pd-box2 .swiper-next',
-          prevEl: '.pd-box2 .swiper-prev',
+          nextEl: '#pd-box2 .swiper-next',
+          prevEl: '#pd-box2 .swiper-prev',
         },
       }
     }
   });
   // pd-box3
-  var pd3Swiper = new Swiper('.pd-box3 .swiper-container', {
-    slidesPerView: 3,
+  var pd3Swiper = new Swiper('#pd-box3 .swiper-container', {
+    slidesPerView: 4,
     spaceBetween: 40,
     simulateTouch: false,
     breakpoints: {
@@ -94,8 +94,8 @@ $(function () {
         simulateTouch: true,
         spaceBetween: 8,
         navigation: {
-          nextEl: '.pd-box3 .swiper-next',
-          prevEl: '.pd-box3 .swiper-prev',
+          nextEl: '#pd-box3 .swiper-next',
+          prevEl: '#pd-box3 .swiper-prev',
         },
       }
     }
@@ -122,3 +122,19 @@ $(function () {
     }, 300);
   });
 })
+
+
+//1shop 自訂
+
+// $(window).on('scroll', function () {
+//   navAlpha();
+// })
+// function navAlpha() {
+//   let $windowTop = $(window).scrollTop();
+//   if ($windowTop > 1) {
+//     $('.website__top-bar').css('background-color', 'rgba(254,238,222,0.9)')
+//   } else {
+//     $('.website__top-bar').css('background-color', 'rgba(254,238,222,1)')
+//   }
+// }
+// document.querySelector('#loading').classList.add('hide');

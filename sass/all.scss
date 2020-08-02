@@ -602,7 +602,7 @@ header {
   }
   [class^='col'] {
     margin-bottom: 20px;
-    transition: 0.3s;
+    transition: 0.3s !important;
     &:hover {
       transform: translateY(-5px);
     }

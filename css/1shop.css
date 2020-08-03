@@ -1,0 +1,77 @@
+.container {
+  max-width: 2560px !important;
+}
+
+.footer {
+  display: none;
+}
+
+.InWeb .page-content {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  max-width: 180px;
+}
+
+.navbar-toggler .icon-bar {
+  background-color: #fa9356 !important;
+}
+
+.navbar-nav .nav-item a {
+  color: #fa9356 !important;
+}
+
+.menu-cart {
+  color: #fa9356 !important;
+}
+
+@media (min-width: 1201px) {
+  .navbar {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 8px 45px;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-top: 15px;
+    padding-left: 30px;
+  }
+  .navbar-nav .nav-item:last-child {
+    margin-left: auto;
+  }
+  .navbar-nav .nav-item {
+    padding: 0 12px;
+  }
+  .navbar-nav .nav-item a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .navbar {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+#loading .center {
+  opacity: 0;
+}
+
+#loading .center {
+  opacity: 0.5;
+}
+
+.pace .pace-progress {
+  background: #fc8f4e !important;
+}
+/*# sourceMappingURL=1shop.css.map */

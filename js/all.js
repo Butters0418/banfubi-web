@@ -121,20 +121,19 @@ $(function () {
       scrollTop: targetTop
     }, 300);
   });
-})
+});
 
 
 //1shop 自訂
-
-// $(window).on('scroll', function () {
-//   navAlpha();
-// })
-// function navAlpha() {
-//   let $windowTop = $(window).scrollTop();
-//   if ($windowTop > 1) {
-//     $('.website__top-bar').css('background-color', 'rgba(254,238,222,0.9)')
-//   } else {
-//     $('.website__top-bar').css('background-color', 'rgba(254,238,222,1)')
-//   }
-// }
-// document.querySelector('#loading').classList.add('hide');
+; (function () {
+  $(window).on('scroll', function () {
+    navAlpha();
+  })
+  function navAlpha() {
+    let $windowTop = $(window).scrollTop();
+    if ($windowTop > 50) {
+      $('.navbar').addClass('bg_white-alpha')
+      $('.website__top-bar').addClass('bg_main-alpha')
+    }
+  }
+})

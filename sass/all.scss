@@ -28,6 +28,9 @@ section.code {
 // 手機版 top-bar
 .website__top-bar {
   display: none;
+  &.bg_main-alpha {
+    background-color: rgba(#feeede, 0.95);
+  }
   @include media($pad) {
     position: fixed;
     z-index: 20;

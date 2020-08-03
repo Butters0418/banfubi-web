@@ -68,12 +68,23 @@ img {
   margin-bottom: 0;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar.bg-white-alpha {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
 .navbar > .container {
   max-width: 1300px;
 }
 
 .navbar-brand {
-  max-width: 180px;
+  max-width: 170px;
 }
 
 .navbar-toggler .icon-bar {
@@ -89,6 +100,9 @@ img {
 }
 
 @media (min-width: 1201px) {
+  .html {
+    padding-top: 96px;
+  }
   .navbar {
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -104,7 +118,7 @@ img {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding-top: 15px;
+    padding-top: 12px;
     padding-left: 30px;
   }
   .navbar-nav .nav-item {
@@ -164,6 +178,10 @@ section.code {
 
 .website__top-bar {
   display: none;
+}
+
+.website__top-bar.bg_main-alpha {
+  background-color: rgba(254, 238, 222, 0.95);
 }
 
 @media screen and (max-width: 767.98px) {

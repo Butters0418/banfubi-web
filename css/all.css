@@ -79,6 +79,11 @@ img {
   background-color: rgba(255, 255, 255, 0.95);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0 45px;
+}
+
+.navbar.bg_white-alpha .navbar-nav {
+  padding-left: 20px;
 }
 
 .navbar > .container {
@@ -122,6 +127,8 @@ img {
             align-items: flex-end;
     padding-top: 12px;
     padding-left: 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   .navbar-nav .nav-item {
     padding: 0 12px;

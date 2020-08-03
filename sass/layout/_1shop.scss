@@ -18,6 +18,10 @@
   &.bg_white-alpha {
     background-color: rgba(#fff, 0.95);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0 45px;
+    .navbar-nav {
+      padding-left: 20px;
+    }
   }
 }
 .navbar > .container {
@@ -50,6 +54,7 @@
     align-items: flex-end;
     padding-top: 12px;
     padding-left: 30px;
+    transition: 0.3s;
     .nav-item {
       &:last-child {
         margin-left: auto;

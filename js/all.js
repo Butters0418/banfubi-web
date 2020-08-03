@@ -125,15 +125,17 @@ $(function () {
 
 
 //1shop 自訂
-; (function () {
-  $(window).on('scroll', function () {
-    navAlpha();
-  })
-  function navAlpha() {
-    let $windowTop = $(window).scrollTop();
-    if ($windowTop > 50) {
-      $('.navbar').addClass('bg_white-alpha')
-      $('.website__top-bar').addClass('bg_main-alpha')
-    }
-  }
-})
+
+// $(window).on('scroll', function () {
+//   navAlpha();
+// })
+// function navAlpha() {
+//   let $windowTop = $(window).scrollTop();
+//   if ($windowTop > 50) {
+//     $('.navbar').addClass('bg_white-alpha')
+//     $('.website__top-bar').addClass('bg_main-alpha')
+//   } else {
+//     $('.navbar').removeClass('bg_white-alpha')
+//     $('.website__top-bar').removeClass('bg_main-alpha')
+//   }
+// }

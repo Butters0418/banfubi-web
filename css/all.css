@@ -75,7 +75,7 @@ img {
   transition: 0.3s;
 }
 
-.navbar.bg-white-alpha {
+.navbar.bg_white-alpha {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
@@ -178,10 +178,14 @@ section.code {
 
 .website__top-bar {
   display: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .website__top-bar.bg_main-alpha {
   background-color: rgba(254, 238, 222, 0.95);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 767.98px) {
@@ -202,8 +206,6 @@ section.code {
     margin-bottom: 0;
     list-style: none;
     background-color: #feeede;
-    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   }
 }
 

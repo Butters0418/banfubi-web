@@ -28,8 +28,10 @@ section.code {
 // 手機版 top-bar
 .website__top-bar {
   display: none;
+  transition: 0.3s;
   &.bg_main-alpha {
     background-color: rgba(#feeede, 0.95);
+    box-shadow: 0 2px 10px rgba(#000, 0.2);
   }
   @include media($pad) {
     position: fixed;
@@ -42,7 +44,6 @@ section.code {
     margin-bottom: 0;
     list-style: none;
     background-color: #feeede;
-    box-shadow: 0 2px 10px rgba(#000, 0.2);
   }
   a {
     display: block;

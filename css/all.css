@@ -89,10 +89,6 @@ img {
   transition: 0.3s;
 }
 
-.navbar-brand.bg_white-alpha {
-  max-width: 150px;
-}
-
 .navbar-toggler .icon-bar {
   background-color: #fa9356 !important;
 }
@@ -119,11 +115,11 @@ img {
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  .navbar.bg_white-alpha .navbar-nav {
-    padding-left: 20px;
-  }
   .navbar.bg_white-alpha .navbar-nav .nav-item a {
     font-size: 1.3rem;
+  }
+  .navbar.bg_white-alpha .navbar-brand {
+    max-width: 150px;
   }
   .navbar-nav {
     display: -webkit-box;
@@ -145,6 +141,7 @@ img {
   }
   .navbar-nav .nav-item:last-child {
     margin-left: auto;
+    padding-right: 0;
   }
   .navbar-nav .nav-item a {
     font-size: 1.5rem;

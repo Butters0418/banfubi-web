@@ -25,9 +25,6 @@
 .navbar-brand {
   max-width: 170px;
   transition: 0.3s;
-  &.bg_white-alpha {
-    max-width: 150px;
-  }
 }
 .navbar-toggler .icon-bar {
   background-color: #fa9356 !important;
@@ -50,10 +47,12 @@
       padding: 0 45px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       .navbar-nav {
-        padding-left: 20px;
         .nav-item a {
           font-size: 1.3rem;
         }
+      }
+      .navbar-brand {
+        max-width: 150px;
       }
     }
   }
@@ -67,6 +66,7 @@
     .nav-item {
       &:last-child {
         margin-left: auto;
+        padding-right: 0;
       }
       padding: 0 12px;
       a {

@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA;;;;;GAKG",
     "sources": [
-        "../sass/bootstrap.scss"
+        "bootstrap.scss"
     ],
     "names": [],
     "file": "bootstrap.css"

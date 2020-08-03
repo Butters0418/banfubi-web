@@ -79,11 +79,6 @@ img {
   background-color: rgba(255, 255, 255, 0.95);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 0 45px;
-}
-
-.navbar.bg_white-alpha .navbar-nav {
-  padding-left: 20px;
 }
 
 .navbar > .container {
@@ -92,6 +87,12 @@ img {
 
 .navbar-brand {
   max-width: 170px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-brand.bg_white-alpha {
+  max-width: 150px;
 }
 
 .navbar-toggler .icon-bar {
@@ -114,6 +115,9 @@ img {
     -webkit-box-shadow: none;
             box-shadow: none;
     padding: 8px 45px;
+  }
+  .navbar.bg_white-alpha {
+    padding: 0 45px;
   }
   .navbar-nav {
     display: -webkit-box;
@@ -138,6 +142,12 @@ img {
   }
   .navbar-nav .nav-item a {
     font-size: 1.5rem;
+  }
+  .navbar-nav.bg_white-alpha {
+    padding-left: 20px;
+  }
+  .navbar-nav.bg_white-alpha .nav-item a {
+    font-size: 1.3rem;
   }
 }
 

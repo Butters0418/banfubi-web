@@ -18,10 +18,6 @@
   &.bg_white-alpha {
     background-color: rgba(#fff, 0.95);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 0 45px;
-    .navbar-nav {
-      padding-left: 20px;
-    }
   }
 }
 .navbar > .container {
@@ -29,6 +25,10 @@
 }
 .navbar-brand {
   max-width: 170px;
+  transition: 0.3s;
+  &.bg_white-alpha {
+    max-width: 150px;
+  }
 }
 .navbar-toggler .icon-bar {
   background-color: #fa9356 !important;
@@ -47,6 +47,9 @@
   .navbar {
     box-shadow: none;
     padding: 8px 45px;
+    &.bg_white-alpha {
+      padding: 0 45px;
+    }
   }
   .navbar-nav {
     display: flex;
@@ -62,6 +65,12 @@
       padding: 0 12px;
       a {
         font-size: 1.5rem;
+      }
+    }
+    &.bg_white-alpha {
+      padding-left: 20px;
+      .nav-item a {
+        font-size: 1.3rem;
       }
     }
   }

@@ -56,7 +56,7 @@ img {
   max-width: 100%;
 }
 
-.container {
+.html > .container {
   max-width: 2560px !important;
 }
 
@@ -103,11 +103,11 @@ img {
     padding-top: 15px;
     padding-left: 30px;
   }
-  .navbar-nav .nav-item:last-child {
-    margin-left: auto;
-  }
   .navbar-nav .nav-item {
     padding: 0 12px;
+  }
+  .navbar-nav .nav-item:last-child {
+    margin-left: auto;
   }
   .navbar-nav .nav-item a {
     font-size: 1.5rem;
@@ -119,10 +119,6 @@ img {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-}
-
-#loading .center {
-  opacity: 0;
 }
 
 #loading .center {

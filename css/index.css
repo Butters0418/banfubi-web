@@ -6,10 +6,6 @@
           transform: scaleY(1.06);
 }
 
-.html > .container {
-  max-width: 2560px !important;
-}
-
 /* loading動畫 */
 .loading_mask {
   position: fixed;

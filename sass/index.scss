@@ -1,9 +1,9 @@
-@import 'init';
+//utils
+@import 'utils/variable';
 
-section.code {
-  overflow-x: hidden;
+.html > .container {
+  max-width: 2560px !important;
 }
-
 /* loading動畫 */
 .loading_mask {
   position: fixed;
@@ -195,39 +195,38 @@ section.code {
     }
   }
   &__title {
-    padding: 15px 25px;
+    padding: 12px 25px 12px;
     border-radius: 30px 30px 0 0;
     background-color: #ffe88b;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include media($pad) {
-      padding: 8px 12px;
-    }
     @include media($mobile) {
       border-radius: 15px 15px 0 0;
+      padding: 8px 25px;
     }
     &:before {
       content: '';
-      width: 174px;
+      width: 120px;
       @include media($pad) {
-        width: 113px;
+        width: 102px;
       }
-      @include media($pad) {
-        width: 70px;
+      @include media($mobile) {
+        width: 66px;
       }
     }
     h3 {
-      font-size: 2.6rem;
+      font-size: 2.4rem;
       color: #f6921c;
       margin: 0;
       line-height: 1;
       font-weight: bold;
       letter-spacing: 1px;
+      margin-bottom: -4px;
       @extend %fontYen;
       @include media($pad) {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
       @include media($mobile) {
         font-size: 1.3rem;
@@ -236,19 +235,19 @@ section.code {
   }
   &__more {
     color: #f05816;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px 24px 2px;
+    padding: 4px 16px 2px;
     border-radius: 50px;
     background-color: #fff;
-    line-height: 1.5;
+    line-height: 1.4;
     @extend %fontYen;
     font-weight: 600;
     @include media($pad) {
-      font-size: 1.25rem;
-      padding: 2px 16px 0px;
+      font-size: 1.2rem;
+      padding: 4px 16px 2px;
     }
     @include media($mobile) {
       font-size: 12px;
@@ -270,10 +269,10 @@ section.code {
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 12px 0 12px 20px;
+      border-width: 10px 0 10px 16px;
       border-color: transparent transparent transparent #f6921c;
       @include media($pad) {
-        border-width: 10px 0 10px 16px;
+        border-width: 8px 0 8px 12px;
       }
       @include media($mobile) {
         border-width: 5px 0 5px 8px;
@@ -285,7 +284,7 @@ section.code {
     position: relative;
     background-color: #fff;
     border-radius: 0 0 30px 30px;
-    padding: 25px 65px 15px;
+    padding: 20px 65px 10px;
     border: 5px solid #ffe88b;
     border-top: none;
     @include media($laptop) {
@@ -636,86 +635,5 @@ section.code {
         font-size: 14px;
       }
     }
-  }
-}
-
-//section5
-.section5 {
-  @include media($pad) {
-    padding: 15px 10px;
-  }
-  .section__inner {
-    max-width: 1600px;
-  }
-  [class^='col'] {
-    @include media($padLg) {
-      padding: 0 8px;
-    }
-  }
-}
-.footer__logo {
-  max-width: 120px;
-  margin: 0 0 0 50%;
-  @include media($padLg) {
-    max-width: 110px;
-  }
-  @include media($pad) {
-    max-width: 60px;
-  }
-  @include media($mobile) {
-    margin-right: 0;
-    margin-left: auto;
-  }
-}
-.footer__title {
-  color: #fff0c6;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
-  text-align: left;
-  line-height: 1;
-  @include media($laptop) {
-    font-size: 1.4rem;
-  }
-  @include media($padLg) {
-    font-size: 1.2rem;
-  }
-}
-.footer__list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: left;
-  @include media($mobile) {
-    display: inline-block;
-  }
-  li {
-    margin-bottom: 8px;
-    font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 1.25;
-    color: #fff;
-    @include media($laptop) {
-      font-size: 1.2rem;
-    }
-    @include media($padLg) {
-      font-size: 1rem;
-    }
-    @include media($mobile) {
-      margin-bottom: 5px;
-    }
-  }
-  a {
-    color: #fff;
-    transition: 0.3s;
-    display: block;
-    &:hover {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-}
-.text-md-center {
-  @include media($mobile) {
-    text-align: center;
   }
 }

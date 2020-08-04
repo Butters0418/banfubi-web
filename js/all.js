@@ -126,8 +126,6 @@ $(function () {
 
 //1shop 自訂
 
-
-
 // $(window).on('scroll', function () {
 //   navAlpha();
 // })
@@ -141,25 +139,3 @@ $(function () {
 //     $('.website__top-bar').removeClass('bg_main-alpha')
 //   }
 // }
-
-
-
-// body最上方
-/* <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js'></script> */
-
-// body最下方
-// <script>
-//   $(window).on('scroll', function () {
-//     navAlpha();
-//   })
-//   function navAlpha() {
-//     let $windowTop = $(window).scrollTop();
-//     if ($windowTop > 80) {
-//     $('.navbar').addClass('bg_white-alpha')
-//       $('.website__top-bar').addClass('bg_main-alpha')
-//     } else {
-//     $('.navbar').removeClass('bg_white-alpha')
-//       $('.website__top-bar').removeClass('bg_main-alpha')
-//     }
-//   }
-// </script>

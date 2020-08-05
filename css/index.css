@@ -890,8 +890,8 @@
 
 @media screen and (max-width: 767.98px) {
   .website__brands--text p {
-    font-size: 1.25rem;
-    line-height: 1.25;
+    font-size: 1rem;
+    line-height: 1.1;
     letter-spacing: 1px;
   }
 }

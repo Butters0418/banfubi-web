@@ -10,6 +10,11 @@ section.code {
   .editor {
     max-width: 1140px !important;
     margin: 0 auto;
+    &:first-child {
+      @include media($pad) {
+        padding-top: 40px;
+      }
+    }
   }
 }
 #website .footer {

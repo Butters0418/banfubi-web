@@ -61,6 +61,12 @@ section.code {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 767.98px) {
+  .html > .container .editor:first-child {
+    padding-top: 40px;
+  }
+}
+
 #website .footer {
   display: none;
 }

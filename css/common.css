@@ -62,7 +62,7 @@ section.code {
 }
 
 @media screen and (max-width: 767.98px) {
-  .html > .container .editor:first-child {
+  .html > .container .editor:nth-child(2) {
     padding-top: 40px;
   }
 }

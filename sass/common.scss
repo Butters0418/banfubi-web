@@ -5,8 +5,14 @@
 section.code {
   overflow-x: hidden;
 }
-
-.footer {
+.html > .container {
+  max-width: 2560px !important;
+  .editor {
+    max-width: 1140px !important;
+    margin: 0 auto;
+  }
+}
+.html .footer {
   display: none;
 }
 .InWeb .page-content {

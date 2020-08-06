@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!--CSS-->
+  <link type="text/css" rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css' />
+  <link type="text/css" rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css' />
+  <link type="text/css" rel="stylesheet" href="css/common.css">
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+  <!-- <header>
+    <p>HEADER</p>
+  </header> -->
+  <!-- mask -->
+  <div class="loading_mask"></div>
+
+  <div class="website__shop">
+    <div class="container-fluid">
+      <h3 class="website__shop--title">myheart實體門市</h3>
+      <!-- 北部 -->
+      <p class="website__shop--area">北部</p>
+      <div class="row">
+        <!-- 1 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台北市北投區中央南路一段20號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台北北投暢貨中心</div>
+            </div>
+            <p class="address">地址:台北市北投區中央南路一段20號</p>
+            <p>電話:(02) 2895-2746</p>
+          </a>
+        </div>
+        <!-- 2 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台北市大同區鄭州路29巷2-5號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">大成婦嬰生活館</div>
+            </div>
+            <p class="address">地址:台北市大同區鄭州路29巷2-5號</p>
+            <p>電話:(02) 2552-5352</p>
+          </a>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=新北市新店區中正路237號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜新北新店門市</div>
+            </div>
+            <p class="address">地址:新北市新店區中正路237號</p>
+            <p>電話:(02) 2913-9742</p>
+          </a>
+        </div>
+        <!-- 4 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=新北市中和區中山路三段122號3樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜新北中和環球購物專櫃</div>
+            </div>
+            <p class="address">地址:新北市中和區中山路三段122號3樓</p>
+            <p>電話:(02) 3234-9621</p>
+          </a>
+        </div>
+        <!-- 5 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=新北市樹林區中山路一段65之1號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜新北樹林門市</div>
+            </div>
+            <p class="address">地址:新北市樹林區中山路一段65之1號</p>
+            <p>電話:(02) 2684-2417</p>
+          </a>
+        </div>
+        <!-- 6 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=新北市土城區金城路二段392號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜新北土城金城門市</div>
+            </div>
+            <p class="address">地址:新北市土城區金城路二段392號</p>
+            <p>電話:(02) 2262-9812</p>
+          </a>
+        </div>
+        <!-- 7 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=新北市三峽區文化路129號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜新北三峽門市</div>
+            </div>
+            <p class="address">地址:新北市三峽區文化路129號</p>
+            <p>電話:(02) 2674-2306</p>
+          </a>
+        </div>
+        <!-- 8 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=桃園市龜山區文化二路38號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜桃園林口長庚門市</div>
+            </div>
+            <p class="address">地址:桃園市龜山區文化二路38號</p>
+            <p>電話:(03) 397-1074</p>
+          </a>
+        </div>
+        <!-- 9 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=桃園市中壢區春德路189號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜桃園華泰名品城暢貨中心</div>
+            </div>
+            <p class="address">地址:桃園市中壢區春德路189號</p>
+            <p>電話:(03) 287-0973</p>
+          </a>
+        </div>
+        <!-- 10 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=桃園市桃園區中正路19號,號8樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜桃園站前新光三越專櫃</div>
+            </div>
+            <p class="address">地址:桃園市桃園區中正路19號,號8樓</p>
+            <p>電話:(03) 331-4836</p>
+          </a>
+        </div>
+        <!-- 11 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=宜蘭縣宜蘭市中山路三段121號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜宜蘭門市</div>
+            </div>
+            <p class="address">地址:宜蘭縣宜蘭市中山路三段121號</p>
+            <p>電話:(03) 933-2914</p>
+          </a>
+        </div>
+        <!-- 12 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=宜蘭縣羅東鎮中正路72號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜宜蘭羅東門市</div>
+            </div>
+            <p class="address">地址:宜蘭縣羅東鎮中正路72號</p>
+            <p>電話:(03) 954-1763</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- 中部 -->
+      <p class="website__shop--area">中部</p>
+      <div class="row">
+        <!-- 1 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市大甲區光明路77號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中大甲門市</div>
+            </div>
+            <p class="address">地址:台中市大甲區光明路77號</p>
+            <p>電話:(04) 2688-0833</p>
+          </a>
+        </div>
+        <!-- 2 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市后里區福容路201號2樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中麗寶Outlet暢貨中心</div>
+            </div>
+            <p class="address">地址:台中市后里區福容路201號2樓</p>
+            <p>電話:(04) 3702-0303</p>
+          </a>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市北屯區文心路四段462號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中文心門市</div>
+            </div>
+            <p class="address">地址:台中市北屯區文心路四段462號</p>
+            <p>電話:(04) 2237-2032</p>
+          </a>
+        </div>
+        <!-- 4 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市西屯區台灣大道三段251號5樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中遠東百貨專櫃</div>
+            </div>
+            <p class="address">地址:台中市西屯區台灣大道三段251號5樓</p>
+            <p>電話:(04) 2252-2743</p>
+          </a>
+        </div>
+        <!-- 5 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市西屯區大墩路962號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中大墩暢貨中心</div>
+            </div>
+            <p class="address">地址:台中市西屯區大墩路962號</p>
+            <p>電話:(04) 2326-3115</p>
+          </a>
+        </div>
+        <!-- 6 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台中市大里區中興路二段398號之1號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台中大里門市</div>
+            </div>
+            <p class="address">地址:台中市大里區中興路二段398號之1號</p>
+            <p>電話:(04) 2485-0752</p>
+          </a>
+        </div>
+        <!-- 7 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=彰化縣員林市中山路二段360號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜彰化員林中山門市</div>
+            </div>
+            <p class="address">地址:彰化縣員林市中山路二段360號</p>
+            <p>電話:(04) 836-5764</p>
+          </a>
+        </div>
+        <!-- 8 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=雲林縣虎尾鎮中正路233號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜雲林虎尾門市</div>
+            </div>
+            <p class="address">地址:雲林縣虎尾鎮中正路233號</p>
+            <p>電話:(05) 633-6410</p>
+          </a>
+        </div>
+        <!-- 9 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=雲林縣斗六市太平路157號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜雲林斗六暢貨中心</div>
+            </div>
+            <p class="address">地址:雲林縣斗六市太平路157號</p>
+            <p>電話:(05) 535-0932</p>
+          </a>
+        </div>
+        <!-- 10 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=雲林縣北港鎮義民路61號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜雲林北港門市</div>
+            </div>
+            <p class="address">地址:雲林縣北港鎮義民路61號</p>
+            <p>電話:(05) 773-1072</p>
+          </a>
+        </div>
+        <!-- 11 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=嘉義市東區垂楊路33號之1號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜嘉義體育館門市</div>
+            </div>
+            <p class="address">地址:嘉義市東區垂楊路33號之1號</p>
+            <p>電話:(05) 227-4908</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- 南部 -->
+      <p class="website__shop--area">南部</p>
+      <div class="row">
+        <!-- 1 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市新營區三民路89之1號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南新營門市</div>
+            </div>
+            <p class="address">地址:台南市新營區三民路89之1號</p>
+            <p>電話:(06) 635-8813</p>
+          </a>
+        </div>
+        <!-- 2 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市善化區中山路120號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南善化門市</div>
+            </div>
+            <p class="address">地址:台南市善化區中山路120號</p>
+            <p>電話:(06) 585-2674</p>
+          </a>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市東區前鋒路210號4樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南遠東百貨專櫃</div>
+            </div>
+            <p class="address">地址:台南市東區前鋒路210號4樓</p>
+            <p>電話:(06) 275-4198</p>
+          </a>
+        </div>
+        <!-- 4 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市中西區中山路162號8樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南新光三越專櫃</div>
+            </div>
+            <p class="address">地址:台南市中西區中山路162號8樓</p>
+            <p>電話:(06) 229-4484</p>
+          </a>
+        </div>
+        <!-- 5 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市東區崇明路341號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南崇明暢貨中心</div>
+            </div>
+            <p class="address">地址:台南市東區崇明路341號</p>
+            <p>電話:(06) 269-7777</p>
+          </a>
+        </div>
+        <!-- 6 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=台南市仁德區中山路432號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜台南仁德門市</div>
+            </div>
+            <p class="address">地址:台南市仁德區中山路432號</p>
+            <p>電話:(06) 279-6695</p>
+          </a>
+        </div>
+        <!-- 7 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=高雄市岡山區溪東路68號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜高雄岡山門市</div>
+            </div>
+            <p class="address">地址:高雄市岡山區溪東路68號</p>
+            <p>電話:(07) 621-6677</p>
+          </a>
+        </div>
+        <!-- 8 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=高雄市左營區博愛二路777號6樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜高雄漢神巨蛋專櫃</div>
+            </div>
+            <p class="address">地址:高雄市左營區博愛二路777號6樓</p>
+            <p>電話:(07) 522-6824</p>
+          </a>
+        </div>
+        <!-- 9 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=高雄市新興區五福二路125之2號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜高雄五福暢貨中心</div>
+            </div>
+            <p class="address">地址:高雄市新興區五福二路125之2號</p>
+            <p>電話:(07) 215-0519</p>
+          </a>
+        </div>
+        <!-- 10 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=高雄市苓雅區三多四路21號6樓" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜高雄遠東百貨專櫃</div>
+            </div>
+            <p class="address">地址:高雄市苓雅區三多四路21號6樓</p>
+            <p>電話:(07) 537-4548</p>
+          </a>
+        </div>
+        <!-- 11 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=高雄市鳳山區五甲三路107號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜高雄五甲門市</div>
+            </div>
+            <p class="address">地址:高雄市鳳山區五甲三路107號</p>
+            <p>電話:(07) 812-2380</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- 東部 -->
+      <p class="website__shop--area">東部</p>
+      <div class="row">
+        <!-- 1 -->
+        <div class="col-md-6 col-lg-4">
+          <a class="website__shop--link" href="https://www.google.com/maps?q=花蓮縣花蓮市中正路513號" target="_blank">
+            <div class="d-flex align-items-center">
+              <img src="img/map-icon.png">
+              <div class="name">麗嬰房｜花蓮中正門市</div>
+            </div>
+            <p class="address">地址:花蓮縣花蓮市中正路513號</p>
+            <p>電話:(03) 832-7952</p>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js'></script>
+  <script src="js/all.js"></script>
+</body>
+
+</html>

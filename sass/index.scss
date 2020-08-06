@@ -655,6 +655,7 @@
       text-align: center;
       font-family: 'cwtexyen', -apple-system, BlinkMacSystemFont, 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif;
       font-weight: 500;
+
       @include media($pad) {
         font-size: 1rem;
         line-height: 1.1;

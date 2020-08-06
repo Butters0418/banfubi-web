@@ -715,6 +715,9 @@
       transform: translateY(-5px);
       box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
     }
+    &:focus {
+      color: #333;
+    }
     > div {
       margin-bottom: 15px;
     }

@@ -972,6 +972,10 @@
           box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
+.website__shop--link:focus {
+  color: #333;
+}
+
 .website__shop--link > div {
   margin-bottom: 15px;
 }

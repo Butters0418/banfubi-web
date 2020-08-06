@@ -704,7 +704,7 @@
     border: 1px solid #eee;
     padding: 20px;
     color: #333;
-    transition: 0.3s;
+    transition: 0.3s !important;
     @include media($pad) {
       padding: 15px;
       border-radius: 8px;

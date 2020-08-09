@@ -1,0 +1,29 @@
+// 品牌分類
+.website__brands {
+  &--banner img {
+    width: 100%;
+  }
+  &--text {
+    padding: 40px;
+    @include media($pad) {
+      padding: 25px;
+    }
+    p {
+      max-width: 1140px;
+      margin: 0 auto;
+      font-size: 2rem;
+      color: #737373;
+      line-height: 1.75;
+      letter-spacing: 2px;
+      text-align: center;
+      font-family: 'cwtexyen', -apple-system, BlinkMacSystemFont, 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+
+      @include media($pad) {
+        font-size: 1rem;
+        line-height: 1.1;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

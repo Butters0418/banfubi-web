@@ -152,7 +152,7 @@ $(function () {
     let timer = setInterval(countDown, 60);
   }
   //[品牌故事 story] 動畫
-  let $storyLogo = $('.website__story--ani .logo'),
+  let $storyLogo = $('.website__story--ani .story-logo'),
     $storyCircle = $('.website__story--ani .circle'),
     $text = $('.website__story--ani .text'),
     $triangle = $('.website__story--ani .triangle'),

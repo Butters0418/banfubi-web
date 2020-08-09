@@ -1006,7 +1006,7 @@
 
 @media screen and (max-width: 767.98px) {
   .website__story--text {
-    padding: 25px 25px 0px;
+    padding: 20px 25px 0px;
   }
 }
 
@@ -1015,6 +1015,7 @@
   text-align: center;
   font-size: 2.25rem;
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 767.98px) {

@@ -3,13 +3,14 @@
   &--text {
     padding: 40px;
     @include media($pad) {
-      padding: 25px 25px 0px;
+      padding: 20px 25px 0px;
     }
     h3 {
       color: #fb965c;
       text-align: center;
       font-size: 2.25rem;
       margin-bottom: 30px;
+      margin-top: 0;
       @include media($pad) {
         font-size: 1.25rem;
         margin-bottom: 20px;

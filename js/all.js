@@ -162,7 +162,7 @@ $(function () {
     tl.to($storyCircle, { duration: 0.5, scale: 1 })
       .to($storyLogo, { duration: 0.5, opacity: 1, onComplete: startTriangleAni }, 0.4)
       .to($text, { duration: 0.5, opacity: 1, y: 0 }, 1.8)
-      .to($slogan, { duration: 0.5, y: 0, opacity: 1 }, 1.8)
+      .to($slogan, { duration: 0.5, y: 0, opacity: 1 }, 2)
   }
   function startTriangleAni() {
     $triangle.addClass('triangle-ani')

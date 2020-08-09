@@ -114,7 +114,7 @@ $(function () {
 
   // [品牌故事 story] 
   let rate = $(window).width() > 768 ? 1 : 0.6;
-  window.sr = ScrollReveal({ viewOffset: { bottom: 150 * rate }, });
+  window.sr = ScrollReveal({ viewOffset: { bottom: 100 * rate }, });
   // [品牌故事 story] 自定義動畫集合
   sr.reveal('.story--fadeup', { origin: 'bottom', distance: '10px', duration: 500, delay: 100, reset: true, beforeReveal: countData });
   sr.reveal('.story--ani', { origin: 'bottom', distance: 0, afterReveal: storyAni })

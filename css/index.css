@@ -492,7 +492,6 @@
   left: 1%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  display: none;
 }
 
 .pd-box .swiper-next.swiper-button-disabled,

@@ -52,16 +52,16 @@ $(function () {
   let pd1Swiper = new Swiper('#pd-box1 .swiper-container', {
     slidesPerView: 4,
     spaceBetween: 40,
-    navigation: {
-      nextEl: '#pd-box1 .swiper-next',
-      prevEl: '#pd-box1 .swiper-prev',
-    },
+    simulateTouch: false,
     breakpoints: {
       767: {
         slidesPerView: 2,
         simulateTouch: true,
         spaceBetween: 8,
-
+        navigation: {
+          nextEl: '#pd-box1 .swiper-next',
+          prevEl: '#pd-box1 .swiper-prev',
+        },
       }
     }
   });
@@ -69,16 +69,16 @@ $(function () {
   let pd2Swiper = new Swiper('#pd-box2 .swiper-container', {
     slidesPerView: 4,
     spaceBetween: 40,
-    navigation: {
-      nextEl: '#pd-box2 .swiper-next',
-      prevEl: '#pd-box2 .swiper-prev',
-    },
+    simulateTouch: false,
     breakpoints: {
       767: {
         slidesPerView: 2,
         simulateTouch: true,
         spaceBetween: 8,
-
+        navigation: {
+          nextEl: '#pd-box2 .swiper-next',
+          prevEl: '#pd-box2 .swiper-prev',
+        },
       }
     }
   });
@@ -86,15 +86,16 @@ $(function () {
   let pd3Swiper = new Swiper('#pd-box3 .swiper-container', {
     slidesPerView: 4,
     spaceBetween: 40,
-    navigation: {
-      nextEl: '#pd-box3 .swiper-next',
-      prevEl: '#pd-box3 .swiper-prev',
-    },
+    simulateTouch: false,
     breakpoints: {
       767: {
         slidesPerView: 2,
         simulateTouch: true,
         spaceBetween: 8,
+        navigation: {
+          nextEl: '#pd-box3 .swiper-next',
+          prevEl: '#pd-box3 .swiper-prev',
+        },
       }
     }
   });

@@ -4,7 +4,7 @@ $(function () {
         <div class="row">
           <div class="col-3 col-sm-5 col-md-4">
             <div class="footer__logo">
-              <img src="img/logo2.svg" alt="banfubi">
+              <img src="https://butters0418.github.io/banfubi-web/img/logo2.svg" alt="banfubi">
             </div>
           </div>
           <div class="col-md-2 pc">

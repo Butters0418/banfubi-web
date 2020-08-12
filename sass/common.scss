@@ -101,6 +101,9 @@ section.code {
 }
 
 // loading & progress bar
+#loading {
+  background-color: #fff !important;
+}
 #loading .center {
   opacity: 0;
 }

@@ -862,8 +862,33 @@
   }
 }
 
-.website__brands--banner img {
-  width: 100%;
+.website__brands--banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__brands--banner {
+    height: 50vw;
+  }
+}
+
+.website__brands--logo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__brands--logo {
+    width: 35%;
+  }
 }
 
 .website__brands--text {

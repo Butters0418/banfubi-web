@@ -80,3 +80,5 @@ $(function () {
 //     }
 //   }
 // </script>
+
+// $('.page-content').append('<section class="website__section section5" id="website__footer"></section>')

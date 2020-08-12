@@ -1,5 +1,5 @@
 $(function () {
-  $('.page-content').append('<section class="code" id="website__footer"></section')
+  $('.page-content').append('<section class="code" id="website__footer"></section>')
   let footerHtml = `<section class="website__section section5">
       <div class="section__inner">
         <div class="container-fluid">

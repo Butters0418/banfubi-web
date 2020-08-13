@@ -1,12 +1,9 @@
 .website__qa {
   padding: 40px;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
   @include media($pad) {
     padding: 20px;
-  }
-  * {
-    border: 1px solid #ccc;
   }
   &--title {
     font-size: 1.5rem;
@@ -14,6 +11,63 @@
     @include media($pad) {
       font-size: 1.25rem;
       margin-bottom: 25px;
+    }
+  }
+  //left
+  &--tags {
+  }
+  &--tag {
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #444;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(#000, 0.05);
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+    &:hover {
+      background-color: #fa9356;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  //right
+  .website__qa--question {
+    border-radius: 8px;
+    background-color: rgba(#000, 0.05);
+    position: relative;
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 0;
+      padding: 15px;
+      color: #fa9356;
+      background-color: #fff;
+      border-radius: 8px;
+      background-color: transparent;
+      transition: 0.3s;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &:hover {
+        background-color: rgba(#000, 0.05);
+      }
+    }
+    div {
+      letter-spacing: 1.5px;
+      font-size: 0.9em;
+      height: 0;
+      color: #444;
+      height: 0;
+      transition: 0.3s;
+      &.show {
+        height: 100%;
+      }
+      p {
+        padding: 15px;
+      }
     }
   }
 }

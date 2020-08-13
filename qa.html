@@ -10,6 +10,7 @@
   <link type="text/css" rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css' />
   <link type="text/css" rel="stylesheet" href="css/common.css">
   <link type="text/css" rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/fontawsone.css">
 
 </head>
 
@@ -23,18 +24,55 @@
       <h3 class="website__qa--title">常見問題</h3>
       <div class="row">
         <!-- left -->
-        <div class="col-4">
+        <div class="col-3">
           <div class="website__qa--tags">
-            <a href="" data-tag="order">訂單問題</a>
-            <a href="" data-tag="pay">付款方式</a>
-            <a href="" data-tag="shipping">出貨配送</a>
-            <a href="" data-tag="try">七天鑑賞期</a>
-            <a href="" data-tag="invoice">電子發票相關</a>
+            <a class="website__qa--tag" href="javascript:;" data-tag="order"><i class="fas fa-user"></i>訂單問題</a>
+            <a class="website__qa--tag" href="javascript:;" data-tag="pay">付款方式</a>
+            <a class="website__qa--tag" href="javascript:;" data-tag="shipping">出貨配送</a>
+            <a class="website__qa--tag" href="javascript:;" data-tag="try">七天鑑賞期</a>
+            <a class="website__qa--tag" href="javascript:;" data-tag="invoice">電子發票相關</a>
           </div>
         </div>
 
         <!-- right -->
-        <div class="col-8">2</div>
+        <div class="col-9">
+          <div class="website__qa--questions">
+            <div class="accordion" id="accordionExample">
+
+              <div class="card">
+
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+                      Collapsible Group Item #1
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

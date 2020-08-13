@@ -1430,4 +1430,32 @@
     width: 100%;
   }
 }
+
+.website__qa {
+  padding: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__qa {
+    padding: 20px;
+  }
+}
+
+.website__qa * {
+  border: 1px solid #ccc;
+}
+
+.website__qa--title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .website__qa--title {
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

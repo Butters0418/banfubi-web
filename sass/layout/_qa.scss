@@ -1,0 +1,19 @@
+.website__qa {
+  padding: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  @include media($pad) {
+    padding: 20px;
+  }
+  * {
+    border: 1px solid #ccc;
+  }
+  &--title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    @include media($pad) {
+      font-size: 1.25rem;
+      margin-bottom: 25px;
+    }
+  }
+}

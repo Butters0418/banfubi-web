@@ -26,7 +26,8 @@
     background-color: rgba(#000, 0.05);
     letter-spacing: 1.5px;
     transition: 0.3s;
-    &:hover {
+    &:hover,
+    &.active {
       background-color: #fa9356;
       color: #fff;
       text-decoration: none;
@@ -37,6 +38,10 @@
     border-radius: 8px;
     background-color: rgba(#000, 0.05);
     position: relative;
+    margin-bottom: 13px;
+    &.fadeInLeft {
+      animation: fadeInLeft 0.6s;
+    }
     h3 {
       font-size: 1rem;
       margin-bottom: 0;
@@ -55,19 +60,35 @@
         background-color: rgba(#000, 0.05);
       }
     }
-    div {
-      letter-spacing: 1.5px;
-      font-size: 0.9em;
-      height: 0;
+    .ans {
+      padding: 15px;
       color: #444;
-      height: 0;
-      transition: 0.3s;
-      &.show {
-        height: 100%;
-      }
-      p {
-        padding: 15px;
-      }
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      line-height: 1.25;
     }
+  }
+}
+.website__qa--select {
+  margin-bottom: 15px;
+  select {
+    border: 1px solid #fa9356;
+  }
+  .form-control:focus {
+    // border: none !important;
+    border-color: #fa9356;
+    box-shadow: none;
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5%, 0, 0);
+    transform: translate3d(-5, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
 }

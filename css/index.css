@@ -929,7 +929,7 @@
 
 @media screen and (max-width: 767.98px) {
   .website__shop {
-    padding: 20px 0px;
+    padding: 20px;
   }
 }
 
@@ -1445,7 +1445,7 @@
 
 @media screen and (max-width: 767.98px) {
   .website__qa {
-    padding: 20px 0px;
+    padding: 20px;
   }
 }
 
@@ -1507,6 +1507,8 @@
 .website__qa .website__qa--question h3 {
   font-size: 1rem;
   margin-bottom: 0;
+  margin-top: 0 !important;
+  line-height: 1;
   padding: 15px;
   color: #fa9356;
   background-color: #fff;

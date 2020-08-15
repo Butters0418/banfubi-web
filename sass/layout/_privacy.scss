@@ -1,0 +1,73 @@
+.website__privacy {
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  @include media($pad) {
+    padding: 20px;
+  }
+}
+.text-box {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.75rem;
+  @include media($pad) {
+    padding: 1.25rem;
+  }
+  &:first-child {
+    margin-bottom: 30px;
+    @include media($pad) {
+      margin-bottom: 20px;
+    }
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: normal;
+    @include media($pad) {
+      margin-bottom: 16px;
+      font-size: 1.25rem;
+    }
+  }
+  p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #888;
+    font-weight: 300;
+    margin-bottom: 10px;
+    @include media($pad) {
+      font-size: 0.8rem;
+    }
+  }
+  .decimal {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+    h4 {
+      font-size: 1.2rem;
+      margin: 1.25rem 0 0.75rem;
+      font-weight: normal;
+      @include media($pad) {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  .dot {
+    list-style: disc;
+    padding-left: 1.5rem;
+    color: #888;
+    > li {
+      letter-spacing: 1px;
+      line-height: 1.5;
+      color: #888;
+      font-weight: 300;
+      margin-bottom: 8px;
+      @include media($pad) {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

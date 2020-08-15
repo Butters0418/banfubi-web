@@ -2,6 +2,7 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
+  min-height: 80vh;
   @include media($pad) {
     padding: 20px;
   }
@@ -100,6 +101,9 @@
     color: #fa9356;
     background-color: #fffaf6;
   }
+  .select-icon:before {
+    display: none !important;
+  }
   .form-control:focus {
     // border: none !important;
     border-color: #fa9356;
@@ -109,7 +113,7 @@
   }
   .select-icon {
     position: absolute;
-    top: 0.75rem;
+    top: 0.6rem;
     left: 1rem;
     color: #fa9356;
   }

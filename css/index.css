@@ -1441,6 +1441,7 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
+  min-height: 80vh;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -1567,6 +1568,10 @@
   background-color: #fffaf6;
 }
 
+.website__qa--select .select-icon:before {
+  display: none !important;
+}
+
 .website__qa--select .form-control:focus {
   border-color: #fa9356;
   -webkit-box-shadow: none;
@@ -1577,7 +1582,7 @@
 
 .website__qa--select .select-icon {
   position: absolute;
-  top: 0.75rem;
+  top: 0.6rem;
   left: 1rem;
   color: #fa9356;
 }

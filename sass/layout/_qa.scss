@@ -2,9 +2,10 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 80vh;
+  min-height: 72vh;
   @include media($pad) {
     padding: 20px;
+    min-height: 77vh;
   }
   &--title {
     font-size: 1.5rem;
@@ -113,14 +114,14 @@
   }
   .select-icon {
     position: absolute;
-    top: 0.6rem;
+    top: 0.8rem;
     left: 1rem;
     color: #fa9356;
   }
   .select-toggle {
     color: #fa9356;
     position: absolute;
-    top: 0.75rem;
+    top: 0.6rem;
     right: 1rem;
     font-size: 1.25rem;
     pointer-events: none;

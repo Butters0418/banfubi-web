@@ -2,8 +2,6 @@ $(function () {
 
   let activeTag = 'order';
 
-  $(".website__qa--question:not([data-value='order'])").addClass('d-none')
-
   // pc click
   $('.website__qa--tag').on('click', function (e) {
     e.preventDefault();

@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   @include media($pad) {
-    padding: 20px;
+    padding: 20px 0px;
   }
   &--title {
     font-size: 1.5rem;
@@ -81,9 +81,10 @@
 }
 .website__qa--select {
   margin-bottom: 15px;
+  position: relative;
   select {
     border: 1px solid #fa9356;
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 0rem 0.5rem 2.5rem;
     height: auto;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -97,6 +98,20 @@
     box-shadow: none;
     color: #fa9356;
     background-color: #fffaf6;
+  }
+  .select-icon {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    color: #fa9356;
+  }
+  .select-toggle {
+    color: #fa9356;
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    pointer-events: none;
   }
 }
 @keyframes fadeInLeft {

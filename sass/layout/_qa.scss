@@ -69,6 +69,12 @@
       &:hover {
         background-color: rgba(#000, 0.05);
       }
+      i {
+        transition: 0.3s;
+        &.rotate {
+          transform: rotate(90deg);
+        }
+      }
     }
     .ans {
       padding: 15px;

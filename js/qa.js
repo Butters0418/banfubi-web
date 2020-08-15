@@ -17,7 +17,6 @@ $(function () {
     activeTag = $(this).val();
     changeIcon();
     slideQuestions();
-
   })
 
   function changeIcon() {
@@ -48,9 +47,17 @@ $(function () {
       return $(this).data('value') === activeTag;
     })
     $('.website__qa--question').addClass('d-none').find('.collapse').removeClass('show')
+    $('.website__qa--question h3 i').removeClass('rotate  ')
     currentQuestions.each(function () {
       $(this).removeClass('d-none').addClass('fadeInLeft')
     })
   }
 
+
+  $('.collapse').on('show.bs.collapse', function () {
+    $(this).prev().find('i').addClass('rotate')
+  })
+  $('.collapse').on('hide.bs.collapse', function () {
+    $(this).prev().find('i').removeClass('rotate')
+  })
 })

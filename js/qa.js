@@ -65,6 +65,11 @@ $(function () {
   })
 
   slideQuestions();
-
+  $('.qalist a').on('click', function (e) {
+    e.preventDefault();
+    let href = $(this).href()
+    console.log(href)
+    window.location.assign("href");
+  })
 
 })

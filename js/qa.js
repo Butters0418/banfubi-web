@@ -70,7 +70,7 @@ $(function () {
     e.preventDefault();
     let href = $(this).attr('href');
     console.log(href)
-    window.location.href = href;
+    location.href = href;
     location.reload();
   })
 

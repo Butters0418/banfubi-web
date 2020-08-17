@@ -1,6 +1,9 @@
 $(function () {
+  activeTag = location.hash ? location.hash.split("#")[1] : 'order'
+  console.log(activeTag);
 
-  let activeTag = 'order';
+  $(`[data-tag="${activeTag}"]`).addClass('active').siblings().removeClass('active');
+  $('.website__qa--select select').val(activeTag)
 
   // pc click
   $('.website__qa--tag').on('click', function (e) {
@@ -58,4 +61,8 @@ $(function () {
   $('.collapse').on('hide.bs.collapse', function () {
     $(this).prev().find('i').removeClass('rotate')
   })
+
+  slideQuestions();
+
+
 })

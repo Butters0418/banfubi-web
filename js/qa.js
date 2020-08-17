@@ -67,7 +67,7 @@ $(function () {
   slideQuestions();
   $('.qalist a').on('click', function (e) {
     e.preventDefault();
-    let href = $(this).href()
+    let href = $(this).attr('href');
     console.log(href)
     window.location.assign("href");
   })

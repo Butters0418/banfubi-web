@@ -10,12 +10,14 @@ $(function () {
     e.preventDefault();
     $(this).addClass('active').siblings().removeClass('active');
     activeTag = $(this).data('tag');
+    location.hash = `#${activeTag}`
     slideQuestions();
   })
 
   // mobile select
   $('.website__qa--select select').on('change', function () {
     activeTag = $(this).val();
+    location.hash = `#${activeTag}`;
     changeIcon();
     slideQuestions();
   })

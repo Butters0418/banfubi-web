@@ -19,8 +19,8 @@ $(function () {
               </ul>
             </div>
             <div class="col-md-2 pc">
-              <p class="footer__title qalist">常見Q&A</p>
-              <ul class="footer__list">
+              <p class="footer__title">常見Q&A</p>
+              <ul class="footer__list qalist">
                 <li><a href="https://www.banfubi.com.tw/x7uc4m#pay">付款方式</a></li>
                 <li><a href="https://www.banfubi.com.tw/x7uc4m#shipping">出貨配送 </a></li>
                 <li><a href="https://www.banfubi.com.tw/x7uc4m#try">七天鑑賞期</a></li>

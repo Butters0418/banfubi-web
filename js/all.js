@@ -38,6 +38,17 @@ $(function () {
     }, 300);
   });
 
+
+  if ($(window).width() < 768) {
+    $('#website__footer .collapse').removeClass('show');
+  }
+  $('#website__footer .collapse').on('show.bs.collapse', function () {
+    $(this).prev().find('.footer__title--arrow').addClass('rotate')
+  })
+  $('#website__footer .collapse').on('hide.bs.collapse', function () {
+    $(this).prev().find('.footer__title--arrow').removeClass('rotate')
+  })
+
 });
 
 

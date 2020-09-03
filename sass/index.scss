@@ -99,36 +99,6 @@
   }
 }
 
-//section
-.website__section {
-  padding: 50px;
-  @include media($padLg) {
-    padding: 30px 20px;
-  }
-  @include media($mobile) {
-    padding: 30px 10px;
-  }
-  &.section1 {
-    background-color: #fff;
-  }
-  &.section2 {
-    background-color: #ffe8a9;
-  }
-  &.section3 {
-    background-color: #fff;
-  }
-  &.section4 {
-    background-color: #fff6e9;
-  }
-  &.section5 {
-    background-color: #fa9356;
-  }
-}
-.section__inner {
-  max-width: 1300px;
-  margin: 0 auto;
-  text-align: center;
-}
 .section__title {
   display: inline-flex;
   justify-content: center;

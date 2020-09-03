@@ -40,4 +40,5 @@ $(function () {
       </div>
     </section>`
   $('#website__footer').html(footerHtml);
+
 });

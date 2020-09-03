@@ -133,48 +133,6 @@
   width: 100%;
 }
 
-.website__section {
-  padding: 50px;
-}
-
-@media screen and (max-width: 991.98px) {
-  .website__section {
-    padding: 30px 20px;
-  }
-}
-
-@media screen and (max-width: 575.98px) {
-  .website__section {
-    padding: 30px 10px;
-  }
-}
-
-.website__section.section1 {
-  background-color: #fff;
-}
-
-.website__section.section2 {
-  background-color: #ffe8a9;
-}
-
-.website__section.section3 {
-  background-color: #fff;
-}
-
-.website__section.section4 {
-  background-color: #fff6e9;
-}
-
-.website__section.section5 {
-  background-color: #fa9356;
-}
-
-.section__inner {
-  max-width: 1300px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .section__title {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

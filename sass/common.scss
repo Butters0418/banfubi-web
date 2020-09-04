@@ -158,8 +158,8 @@ section.code {
   }
 }
 .footer__logo {
-  width: 20%;
-  padding: 1% 6%;
+  width: 25%;
+  padding: 1% 8%;
 }
 
 .footer__aboutus {
@@ -172,7 +172,7 @@ section.code {
   width: 18%;
 }
 .footer__contactus {
-  width: auto;
+  width: 30%;
 }
 .footer__collapse {
   @include media($pad) {

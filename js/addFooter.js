@@ -1,5 +1,5 @@
 $(function () {
-  $('.page-content').append('<section class="code" id="website__footer"></section>')
+
   let footerHtml = `<section class="website__section section5">
       <div class="section__inner">
         <!-- pc footer logo  -->
@@ -64,6 +64,7 @@ $(function () {
 
       </div>
     </section>`
-  $('#website__footer').html(footerHtml);
+  $('.page-content').after(footerHtml);
+  // $('#website__footer').html(footerHtml);
 
 });

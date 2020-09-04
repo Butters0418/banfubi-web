@@ -38,7 +38,7 @@ $(function () {
     }, 300);
   });
 
-
+  // footer 開關
   if ($(window).width() < 768) {
     $('#website__footer .collapse').removeClass('show');
   }
@@ -48,6 +48,12 @@ $(function () {
   $('#website__footer .collapse').on('hide.bs.collapse', function () {
     $(this).prev().find('.footer__title--arrow').removeClass('rotate')
   })
+
+
+  // 猜你喜歡
+  let $morePdSection = $('.morepd-section').parent().detach();
+  $('#website__footer').before($morePdSection);
+
 
 });
 

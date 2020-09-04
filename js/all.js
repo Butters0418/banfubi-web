@@ -51,8 +51,8 @@ $(function () {
 
 
   // 猜你喜歡
-  let $morePdSection = $('.morepd-section').parent().detach();
-  $('#website__footer').before($morePdSection);
+  // let $morePdSection = $('.morepd-section').parent().detach();
+  // $('#website__footer').before($morePdSection);
 
 
 });

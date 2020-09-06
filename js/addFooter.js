@@ -8,8 +8,8 @@ $(function () {
         </div>
         <!-- mb icon -->
         <div class="footer__social mb">
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/fb.svg"></a>
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/line.svg"></a>
+          <a href="javascript:;" onclick="openContact('facebook','647460302534188')"><img src="https://butters0418.github.io/banfubi-web/img/fb.svg"></a>
+          <a href="javascript:;" onclick="window.open('https://line.me/R/msg/text/?'+ (encodeURIComponent(document.title)) + '%0D%0A'+ (encodeURIComponent(location.href)), '_blank');"><img src="https://butters0418.github.io/banfubi-web/img/line.svg"></a>
           <a href=""><img src="https://butters0418.github.io/banfubi-web/img/ig.svg"></a>
         </div>
 

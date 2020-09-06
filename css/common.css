@@ -426,4 +426,8 @@ section.code {
   font-size: 12px;
   color: #fff;
 }
+
+.set {
+  display: none;
+}
 /*# sourceMappingURL=common.css.map */

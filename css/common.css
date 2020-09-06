@@ -76,13 +76,13 @@ section.code {
   display: none;
 }
 
-.page-content {
+.InWeb .page-content {
   margin-bottom: 0;
   min-height: calc(100vh - 370px);
 }
 
 @media screen and (max-width: 767.98px) {
-  .page-content {
+  .InWeb .page-content {
     min-height: auto;
   }
 }

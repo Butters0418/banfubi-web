@@ -1777,7 +1777,7 @@
 
 .website__morepd .swiper-pagination {
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 0;
   bottom: auto;
   left: auto;

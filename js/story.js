@@ -48,9 +48,9 @@ $(function () {
   function storyAni() {
     let tl = gsap.timeline();
     tl.to($storyCircle, { duration: 0.5, scale: 1 })
-      .to($storyLogo, { duration: 0.5, opacity: 1, onComplete: startTriangleAni }, 0.3)
-      .to($text, { duration: 0.5, opacity: 1, y: 0 }, 1.6)
-      .to($slogan, { duration: 0.5, y: 0, opacity: 1 }, 1.8)
+      .to($storyLogo, { duration: 0.3, opacity: 1, onComplete: startTriangleAni }, 0.2)
+      .to($text, { duration: 0.3, opacity: 1, y: 0 }, 1.2)
+      .to($slogan, { duration: 0.3, y: 0, opacity: 1 }, 1.4)
   }
   function startTriangleAni() {
     $triangle.addClass('triangle-ani')

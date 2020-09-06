@@ -29,7 +29,7 @@ section.code {
   margin-bottom: 0;
   min-height: calc(100vh - 370px);
   @include media($pad) {
-    min-height: auto;
+    min-height: 48vh;
   }
 }
 

@@ -1399,13 +1399,11 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 71vh;
 }
 
 @media screen and (max-width: 767.98px) {
   .website__qa {
     padding: 20px;
-    min-height: 77vh;
   }
 }
 

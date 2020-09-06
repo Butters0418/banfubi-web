@@ -39,15 +39,15 @@ $(function () {
   });
 
   // 猜你喜歡
-  // let $morePdSection = $('.morepd-section').parent().detach();
-  // $('#website__footer').before($morePdSection);
+  // let $morePdSection = $('.website__morepd').parent().detach();
+  // $('.page-content').append($morePdSection);
 
   // 高度
   let wH = $(window).height();
   let navbarH = $('.navbar').height();
   let footerH = $('.footer').height();
   if ($('.html').height() < wH) {
-    $('.page-content').css('min-height', wh - navbarH - footerH);
+    $('.page-content').css('min-height', wH - navbarH - footerH);
   }
 });
 

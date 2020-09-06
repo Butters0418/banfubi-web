@@ -25,8 +25,12 @@ section.code {
 #website .footer {
   display: none;
 }
-.InWeb .page-content {
+.page-content {
   margin-bottom: 0;
+  min-height: calc(100vh - 370px);
+  @include media($pad) {
+    min-height: auto;
+  }
 }
 
 //navabar

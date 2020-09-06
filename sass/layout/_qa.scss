@@ -2,10 +2,8 @@
   padding: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 71vh;
   @include media($pad) {
     padding: 20px;
-    min-height: 77vh;
   }
   &--title {
     font-size: 1.5rem;

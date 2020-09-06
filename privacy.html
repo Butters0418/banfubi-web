@@ -269,7 +269,7 @@
   <!-- <script src="js/all.js"></script> -->
   <script>
     let $morePdSection = $('.website__morepd').parent().detach();
-    $('#website__footer').before($morePdSection);
+    $('.page-content').append($morePdSection);
     let morepd = new Swiper('.website__morepd .swiper-container', {
       slidesPerView: 6,
       slidesPerGroup: 6,

@@ -38,7 +38,8 @@ $(function () {
     }, 300);
   });
 
-  // footer 開關
+
+  //footer 開關
   if ($(window).width() < 768) {
     $('#website__footer .collapse').removeClass('show');
   }

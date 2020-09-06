@@ -1,0 +1,116 @@
+.website__morepd {
+  margin-bottom: 25px;
+  overflow: hidden;
+  * {
+    // border: 1px solid #000;
+  }
+  .section__inner {
+    text-align: left;
+    position: relative;
+    @include media($pad) {
+      padding: 0 10px;
+    }
+  }
+  &--title {
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+  }
+  .morepd {
+    display: block;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 6px;
+    &:hover {
+      text-decoration: none;
+      img {
+        opacity: 0.6;
+      }
+    }
+    img {
+      transition: 0.3s;
+    }
+    p {
+      font-size: 0.9rem;
+      margin: 10px 0;
+      letter-spacing: 1px;
+      font-weight: normal;
+      line-height: 1.25;
+      color: #333;
+      @include media($pad) {
+        font-size: 0.8rem;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+      @include media($mobile) {
+        font-size: 12px;
+      }
+    }
+    .price {
+      @include media($pad) {
+        font-size: 12px;
+      }
+      span {
+        color: #f05816;
+      }
+      .del {
+        font-weight: 300;
+        color: #a8a8ab;
+        text-decoration: line-through;
+        margin-right: 8px;
+        @include media($pad) {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    text-align: right;
+    color: #555;
+    font-size: 14px;
+    @include media($pad) {
+      right: 10px;
+    }
+  }
+  .website__morepd-next,
+  .website__morepd-prev {
+    position: absolute;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(#fff, 0.8);
+    box-shadow: 1px 1px 3px #ccc;
+    &:hover {
+      background-color: rgba(#eee, 0.8);
+    }
+    @include media($pad) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .website__morepd-prev {
+    left: -20px;
+    @include media($pad) {
+      left: -5px;
+    }
+  }
+  .website__morepd-next {
+    right: -20px;
+    @include media($pad) {
+      right: -5px;
+    }
+  }
+}

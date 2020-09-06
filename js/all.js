@@ -42,6 +42,13 @@ $(function () {
   // let $morePdSection = $('.morepd-section').parent().detach();
   // $('#website__footer').before($morePdSection);
 
+  // 高度
+  let wH = $(window).height();
+  let navbarH = $('.navbar').height();
+  let footerH = $('.footer').height();
+  if ($('.html').height() < wH) {
+    $('.page-content').css('min-height', wh - navbarH - footerH);
+  }
 });
 
 

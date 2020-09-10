@@ -580,7 +580,7 @@
 //section4
 .section4 {
   @include media($mobile) {
-    padding: 15px 10px;
+    padding: 15px 20px;
   }
   [class^='col'] {
     @include media($mobile) {

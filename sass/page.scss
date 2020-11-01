@@ -11,6 +11,51 @@
     display: block;
   }
 }
+//1shop版頭 nav-bar footer
+section.code {
+  overflow-x: hidden;
+}
+
+.html > .container {
+  max-width: 2560px !important;
+  .editor {
+    max-width: 1140px !important;
+    margin: 0 auto;
+    &:nth-child(2) {
+      @include media($pad) {
+        padding-top: 40px;
+      }
+    }
+  }
+}
+.single-main {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+#website .footer {
+  display: none;
+}
+
+.InWeb .page-content {
+  margin-bottom: 0;
+  min-height: calc(100vh - 370px);
+  overflow: hidden;
+  @include media($pad) {
+    min-height: 48vh;
+  }
+}
+
+// loading & progress bar
+#loading {
+  background-color: #fff !important;
+}
+#loading .center {
+  opacity: 0;
+}
+.pace .pace-progress {
+  background: #fc8f4e !important;
+}
+
 // footer
 .website__section {
   padding: 50px;

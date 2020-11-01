@@ -1,6 +1,16 @@
 //utils
 @import 'init';
-
+.pc {
+  @include media($pad) {
+    display: none;
+  }
+}
+.mb {
+  display: none;
+  @include media($pad) {
+    display: block;
+  }
+}
 //1shop版頭 nav-bar footer
 section.code {
   overflow-x: hidden;

@@ -48,6 +48,22 @@ img {
   max-width: 100%;
 }
 
+@media screen and (max-width: 767.98px) {
+  .pc {
+    display: none;
+  }
+}
+
+.mb {
+  display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+  .mb {
+    display: block;
+  }
+}
+
 section.code {
   overflow-x: hidden;
 }

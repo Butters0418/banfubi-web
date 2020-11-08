@@ -367,4 +367,120 @@ section.code {
 .page-content .sep {
   display: none;
 }
+
+.main {
+  height: 1000px;
+  background-color: #ccc;
+}
+
+#website-nav__container {
+  padding: 5px 45px;
+  position: relative;
+  background-color: #fa9356;
+}
+
+#website-nav__container .website-nav {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#website-nav__container .nav__btn {
+  background-color: #fa9356;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+#website-nav__container .nav__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#website-nav__container .nav__section--logo {
+  display: block;
+  max-width: 150px;
+}
+
+#website-nav__container .nav__section--list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#website-nav__container .nav__section--list li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#website-nav__container .nav__section--list a {
+  display: block;
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+#website-nav__container .nav__section--list a:hover:after {
+  width: 100%;
+}
+
+#website-nav__container .nav__section--list a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 767.98px) {
+  #website-nav__container {
+    background-color: transparent;
+    padding: 0;
+  }
+  #website-nav__container .nav__section--logo {
+    display: none;
+  }
+  #website-nav__container .nav__section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #website-nav__container .nav__section--list {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #fff;
+    border-top-right-radius: 22px;
+    margin-right: 55px;
+    padding: 30px 10px;
+  }
+  #website-nav__container .nav__section--list li {
+    display: block;
+  }
+  #website-nav__container .nav__section--list li a {
+    color: #fa9356;
+  }
+}
 /*# sourceMappingURL=page.css.map */

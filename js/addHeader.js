@@ -23,7 +23,6 @@ $(function () {
   `;
   $('.page-content').before(headerHtml);
 
-
   $('.nav__btn').on('click', function (e) {
     e.preventDefault();
     $('.nav__section').addClass('nav__section--show');

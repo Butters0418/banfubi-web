@@ -603,4 +603,15 @@ section.code {
     background-color: rgba(0, 0, 0, 0.7);
   }
 }
+
+.check-privacy {
+  color: #999;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.check-privacy a {
+  color: #fa9356;
+  text-decoration: none;
+}
 /*# sourceMappingURL=page.css.map */

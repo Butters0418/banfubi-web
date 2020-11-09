@@ -24,3 +24,32 @@
     }
   }
 </script>
+
+
+<script>
+  $(function () {
+
+
+
+    setTimeout(() => addCheckBox(), 700)
+    function addCheckBox() {
+
+
+      $('.align-self-start button').html('<img src="https://icons.iconarchive.com/icons/iconsmind/outline/24/Shopping-Cart-icon.png">加價購購購')
+      // add checkbox
+      let privacyCheck = $('.privacy-check').detach();
+      $('.order-submit').before(privacyCheck);
+      $('.order-submit button').attr('disabled', true)
+
+      // checkbox click
+      $('#privacy-check').on('click', function () {
+        if ($('#privacy-check').is(':checked')) {
+          $('.order-submit button').attr('disabled', false)
+        } else {
+          $('.order-submit button').attr('disabled', true)
+        }
+      })
+    }
+
+  });
+</script>

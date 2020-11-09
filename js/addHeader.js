@@ -8,9 +8,9 @@ $(function () {
         <span></span>
       </a>
       <div class="nav__section">
-        <a class="nav__section--logo" href="https://www.banfubi.com.tw/"><img src="img/logo-white.png" alt="banhubi"></a>
+        <a class="nav__section--logo" href="https://www.banfubi.com.tw/"><img src="https://butters0418.github.io/banfubi-web/img/logo-white.png" alt="banhubi"></a>
         <ul class="nav__section--list">
-          <li class="nav__section--logomb"><a href="https://www.banfubi.com.tw/"><img src=" img/logo-top.png"></a></li>
+          <li class="nav__section--logomb"><a href="https://www.banfubi.com.tw/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top.png"></a></li>
           <li><a href="">全部商品</a></li>
           <li><a href="">品牌分類</a></li>
           <li><a href="">商品分類</a></li>

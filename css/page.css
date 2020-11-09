@@ -608,6 +608,7 @@ section.code {
   color: #999;
   font-size: 1rem;
   letter-spacing: 1px;
+  margin: 20px 0 10px;
 }
 
 .check-privacy a {

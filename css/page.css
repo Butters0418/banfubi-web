@@ -369,7 +369,7 @@ section.code {
 }
 
 .main {
-  height: 1000px;
+  height: 1500px;
   background-color: #ccc;
 }
 
@@ -386,11 +386,48 @@ section.code {
 
 #website-nav__container .nav__btn {
   background-color: #fa9356;
-  position: absolute;
+  position: fixed;
   top: 15px;
   left: 15px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
+  z-index: 10;
+  border-radius: 50%;
+  display: none;
+  padding: 10px 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 767.98px) {
+  #website-nav__container .nav__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+#website-nav__container .nav__btn span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#website-nav__container .nav__btn span:nth-child(2) {
+  width: 70%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 #website-nav__container .nav__section {
@@ -421,6 +458,14 @@ section.code {
   padding: 0 10px;
 }
 
+#website-nav__container .nav__section--list li.nav__section--logomb {
+  display: none;
+}
+
+#website-nav__container .nav__section--list li.nav__section--logomb a {
+  max-width: 150px;
+}
+
 #website-nav__container .nav__section--list a {
   display: block;
   padding: 10px 5px;
@@ -448,13 +493,14 @@ section.code {
   background-color: #fff;
 }
 
+#website-nav__container .nav__section--close {
+  display: none;
+}
+
 @media screen and (max-width: 767.98px) {
   #website-nav__container {
     background-color: transparent;
     padding: 0;
-  }
-  #website-nav__container .nav__section--logo {
-    display: none;
   }
   #website-nav__container .nav__section {
     position: fixed;
@@ -464,23 +510,97 @@ section.code {
     height: 100%;
     overflow-y: scroll;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 65px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  #website-nav__container .nav__section.nav__section--show {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  #website-nav__container .nav__section--logo {
+    display: none;
   }
   #website-nav__container .nav__section--list {
-    position: relative;
-    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
     min-height: 100%;
-    overflow-x: hidden;
+    width: 100%;
     background-color: #fff;
     border-top-right-radius: 22px;
-    margin-right: 55px;
-    padding: 30px 10px;
+    -webkit-box-shadow: 5px 0 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 5px 0 10px rgba(0, 0, 0, 0.15);
+    padding: 10px 30px 0 20px;
   }
   #website-nav__container .nav__section--list li {
     display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 0;
   }
-  #website-nav__container .nav__section--list li a {
+  #website-nav__container .nav__section--list li.nav__section--logomb {
+    display: block;
+  }
+  #website-nav__container .nav__section--list a {
     color: #fa9356;
+    font-size: 1rem;
+  }
+  #website-nav__container .nav__section--close {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #website-nav__container .nav__section--close:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  #website-nav__container .nav__section--close:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+            transform: translateY(-50%) rotate(-45deg);
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  body.nav--open {
+    overflow: hidden;
+  }
+  body.nav--open:after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 0.5;
+    transition: 0.5;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }
 /*# sourceMappingURL=page.css.map */

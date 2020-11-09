@@ -454,4 +454,15 @@ section.code {
 .page-content .sep {
   display: none;
 }
+
+.check-privacy {
+  color: #999;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.check-privacy a {
+  color: #fa9356;
+  text-decoration: none;
+}
 /*# sourceMappingURL=common.css.map */

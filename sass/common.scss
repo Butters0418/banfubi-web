@@ -1,5 +1,5 @@
 //utils
-@import "init";
+@import 'init';
 .pc {
   @include media($pad) {
     display: none;
@@ -315,4 +315,14 @@ section.code {
 //奇怪的分隔線
 .page-content .sep {
   display: none;
+}
+
+.check-privacy {
+  color: #999;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  a {
+    color: #fa9356;
+    text-decoration: none;
+  }
 }

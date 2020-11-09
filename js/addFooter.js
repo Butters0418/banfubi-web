@@ -76,14 +76,22 @@ $(function () {
     $(this).prev().find('.footer__title--arrow').removeClass('rotate')
   })
 
-  let checkPrivacy = '<p class="check-privacy">* 按下確認後等同於接受「 <a href="" target="_blank">服務條款</a> 」、「 <a href="" target="_blank">隱私權政策</a> 」及「<a href="" target="_blank">退換貨政策</a> 」。</p>'
 
 
-  // add privacy text
-  setTimeout(() => addPrivacyText(), 700)
-  function addPrivacyText() {
-    $('.order-submit').before(checkPrivacy);
-  }
+
+  // let checkPrivacy = '<p class="check-privacy">* 按下確認後等同於接受「 <a href="" target="_blank">服務條款</a> 」、「 <a href="" target="_blank">隱私權政策</a> 」及「<a href="" target="_blank">退換貨政策</a> 」。</p>'
+  // // add privacy text
+  // setTimeout(() => addPrivacyText(), 700)
+  // function addPrivacyText() {
+  //   $('.order-submit').before(checkPrivacy);
+  //   let totalBtn = $('.subtotal button');
+  //   // let isStep3Active = $('.form form.step3').hasClass('active');
+  //   totalBtn.on('click', function () {
+  //     let isStep3Active = $('.form form.step3').hasClass('active');
+  //     console.log(isStep3Active);
+  //   })
+  //   console.log(totalBtn);
+  // }
 
 
 });

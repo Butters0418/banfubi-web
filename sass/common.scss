@@ -317,6 +317,7 @@ section.code {
   display: none;
 }
 
+// 加入隱私權
 .check-privacy {
   color: #999;
   font-size: 1rem;
@@ -326,4 +327,8 @@ section.code {
     color: #fa9356;
     text-decoration: none;
   }
+}
+#checkout .modal .check-privacy {
+  margin: 0;
+  padding: 0 15px;
 }

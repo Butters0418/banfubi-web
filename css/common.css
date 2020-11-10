@@ -466,4 +466,9 @@ section.code {
   color: #fa9356;
   text-decoration: none;
 }
+
+#checkout .modal .check-privacy {
+  margin: 0;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=common.css.map */

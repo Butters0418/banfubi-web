@@ -79,19 +79,52 @@ $(function () {
 
 
 
-  // let checkPrivacy = '<p class="check-privacy">* 按下確認後等同於接受「 <a href="" target="_blank">服務條款</a> 」、「 <a href="" target="_blank">隱私權政策</a> 」及「<a href="" target="_blank">退換貨政策</a> 」。</p>'
-  // // add privacy text
-  // setTimeout(() => addPrivacyText(), 700)
-  // function addPrivacyText() {
-  //   $('.order-submit').before(checkPrivacy);
-  //   let totalBtn = $('.subtotal button');
-  //   // let isStep3Active = $('.form form.step3').hasClass('active');
-  //   totalBtn.on('click', function () {
-  //     let isStep3Active = $('.form form.step3').hasClass('active');
-  //     console.log(isStep3Active);
-  //   })
-  //   console.log(totalBtn);
-  // }
+  let checkPrivacy = '<p class="check-privacy">* 按下確認後等同於接受「 <a href="" target="_blank">服務條款</a> 」、「 <a href="" target="_blank">隱私權政策</a> 」及「<a href="" target="_blank">退換貨政策</a> 」。</p>'
+  // add privacy text
+  setTimeout(() => addPrivacyText(), 700)
+  function addPrivacyText() {
+    $('.order-submit').before(checkPrivacy);
+    let totalBtn = $('.subtotal button');
+    // let isStep3Active = $('.form form.step3').hasClass('active');
+    totalBtn.on('click', function () {
+      let isStep3Active = $('.form form.step3').hasClass('active');
+      console.log(isStep3Active);
+    })
+    console.log(totalBtn);
+  }
 
+
+
+
+
+
+  let checkPrivacy = '<p class="check-privacy">* 按下送出後等同於接受「 <a href="https://www.banfubi.com.tw/pm6j8d" target="_blank">隱私權政策</a> 」及「<a href="https://www.banfubi.com.tw/terms" target="_blank">使用者條款</a> 」。</p>'
+  let isStep3Hidden = true;
+
+  // add privacy text
+  setTimeout(() => addPrivacyText(), 500)
+
+  function addPrivacyText() {
+
+    // 一般單頁式
+    $('.order-submit').before(checkPrivacy);
+
+    // 燈箱式先加入
+    $('#checkout .checkout-extra-help').after(checkPrivacy);
+    $('#checkout .check-privacy').css('display', 'none');
+
+    $('#checkout').on('shown.bs.modal', checkStep3)
+    $('#checkout [onclick^=checkout], #checkout button').on('click', checkStep3)
+
+    function checkStep3() {
+      isStep3Hidden = $('form.step3').is(':hidden');
+      if (isStep3Hidden) {
+        $('#checkout .check-privacy').css('display', 'none');
+      } else {
+        $('#checkout .check-privacy').css('display', 'block');
+      }
+    }
+
+  }
 
 });

@@ -12,8 +12,10 @@ $(function () {
         <ul class="nav__section--list">
           <li class="nav__section--logomb"><a href="https://www.banfubi.com.tw/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top.png"></a></li>
           <li><a href="https://www.banfubi.com.tw/all-goods">全部商品</a></li>
-          <li><a href="https://www.banfubi.com.tw/kq5k69">部落客推薦</a></li>
           <li><a href="https://www.banfubi.com.tw/0djga7">訂單查詢</a></li>
+          <li><a href="https://www.banfubi.com.tw/brandstory">品牌故事</a></li>
+          <li><a href="https://www.banfubi.com.tw/x7uc4m">Q&A相關查詢</a></li>
+          <li><a href="https://www.banfubi.com.tw/ru9l56">實體門市</a></li>
         </ul>
         <a href="javascript:;" class="nav__section--close"></a>
       </div>

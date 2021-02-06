@@ -129,12 +129,12 @@ section.code {
 
 // footer
 .website__section {
-  padding: 50px !important;
+  padding: 50px;
   @include media($padLg) {
-    padding: 30px 20px !important;
+    padding: 30px 20px;
   }
   @include media($mobile) {
-    padding: 30px 10px !important;
+    padding: 30px 10px;
   }
   &.section1 {
     background-color: #fff;
@@ -150,6 +150,15 @@ section.code {
   }
   &.section5 {
     background-color: #fa9356;
+  }
+}
+#website__footer.website__section {
+  padding: 50px !important;
+  @include media($padLg) {
+    padding: 30px 20px !important;
+  }
+  @include media($mobile) {
+    padding: 30px 10px !important;
   }
 }
 .section__inner {
@@ -168,11 +177,9 @@ section.code {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    > div {
-      // border: 1px solid #000;
-    }
   }
 }
+
 .footer__logo {
   width: 25%;
   padding: 1% 8%;

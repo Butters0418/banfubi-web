@@ -418,7 +418,7 @@ section.code {
   color: #fff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  display: block;
+  display: inline-block;
 }
 
 .footer__list a:hover {

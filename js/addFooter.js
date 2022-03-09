@@ -1,5 +1,4 @@
 $(function () {
-
   let footerHtml = `<section id="website__footer" class="website__section section5">
       <div class="section__inner">
         <!-- pc footer logo  -->
@@ -41,7 +40,7 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-3">CONTACT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-3">
             <ul class="footer__list">
-              <li>斑富比有限公司</li>
+              <li><a href="https://www.banfubi.com/" target="_blank">斑富比有限公司</></li>
               <li>客服電話:(02)2581-9665</li>
               <li>服務時間:週一至週五 10:00-18:00 </li>
               <li>廠商合作:lulu@banfubi.com</li>
@@ -63,29 +62,27 @@ $(function () {
         </div>
 
       </div>
-    </section>`
+    </section>`;
   $('.page-content').after(footerHtml);
 
   if ($(window).width() < 768) {
     $('#website__footer .collapse').removeClass('show');
   }
   $('#website__footer .collapse').on('show.bs.collapse', function () {
-    $(this).prev().find('.footer__title--arrow').addClass('rotate')
-  })
+    $(this).prev().find('.footer__title--arrow').addClass('rotate');
+  });
   $('#website__footer .collapse').on('hide.bs.collapse', function () {
-    $(this).prev().find('.footer__title--arrow').removeClass('rotate')
-  })
+    $(this).prev().find('.footer__title--arrow').removeClass('rotate');
+  });
 
-
-
-  let checkPrivacy = '<p class="check-privacy">* 按下送出後等同於接受「 <a href="https://www.banfubi.com.tw/pm6j8d" target="_blank">隱私權政策</a> 」及「<a href="https://www.banfubi.com.tw/terms" target="_blank">使用者條款</a> 」。</p>'
+  let checkPrivacy =
+    '<p class="check-privacy">* 按下送出後等同於接受「 <a href="https://www.banfubi.com.tw/pm6j8d" target="_blank">隱私權政策</a> 」及「<a href="https://www.banfubi.com.tw/terms" target="_blank">使用者條款</a> 」。</p>';
   let isStep3Hidden = true;
 
   // add privacy text
-  setTimeout(() => addPrivacyText(), 500)
+  setTimeout(() => addPrivacyText(), 500);
 
   function addPrivacyText() {
-
     // 一般單頁式
     $('.order-submit').before(checkPrivacy);
 
@@ -93,8 +90,8 @@ $(function () {
     $('#checkout .checkout-extra-help').after(checkPrivacy);
     $('#checkout .check-privacy').css('display', 'none');
 
-    $('#checkout').on('shown.bs.modal', checkStep3)
-    $('#checkout [onclick^=checkout], #checkout button').on('click', checkStep3)
+    $('#checkout').on('shown.bs.modal', checkStep3);
+    $('#checkout [onclick^=checkout], #checkout button').on('click', checkStep3);
 
     function checkStep3() {
       isStep3Hidden = $('form.step3').is(':hidden');
@@ -104,7 +101,5 @@ $(function () {
         $('#checkout .check-privacy').css('display', 'block');
       }
     }
-
   }
-
 });

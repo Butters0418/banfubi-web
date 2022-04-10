@@ -1,4 +1,5 @@
 //utils
+$mainColor: #b4b496;
 @import 'init';
 .pc {
   @include media($pad) {
@@ -62,13 +63,13 @@ section.code {
   transition: 0.3s;
 }
 .navbar-toggler .icon-bar {
-  background-color: #fa9356 !important;
+  background-color: $mainColor !important;
 }
 .navbar-nav .nav-item a {
-  color: #fa9356 !important;
+  color: $mainColor !important;
 }
 .menu-cart {
-  color: #fa9356 !important;
+  color: $mainColor !important;
 }
 
 @media (min-width: 1201px) {
@@ -124,7 +125,7 @@ section.code {
   opacity: 0;
 }
 .pace .pace-progress {
-  background: #fc8f4e !important;
+  background: $mainColor !important;
 }
 
 // footer
@@ -149,7 +150,7 @@ section.code {
     background-color: #fff6e9;
   }
   &.section5 {
-    background-color: #fa9356;
+    background-color: $mainColor;
   }
 }
 #website__footer.website__section {
@@ -228,7 +229,7 @@ section.code {
   }
   &:active {
     transition: 0s;
-    color: #fa9356;
+    color: $mainColor;
     background-color: rgba(#fff, 0.7);
   }
   &--arrow {
@@ -333,7 +334,7 @@ section.code {
   letter-spacing: 1px;
   margin: 20px 0 10px;
   a {
-    color: #fa9356;
+    color: $mainColor;
     text-decoration: none;
   }
 }

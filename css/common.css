@@ -126,15 +126,15 @@ section.code {
 }
 
 .navbar-toggler .icon-bar {
-  background-color: #fa9356 !important;
+  background-color: #b4b496 !important;
 }
 
 .navbar-nav .nav-item a {
-  color: #fa9356 !important;
+  color: #b4b496 !important;
 }
 
 .menu-cart {
-  color: #fa9356 !important;
+  color: #b4b496 !important;
 }
 
 @media (min-width: 1201px) {
@@ -200,7 +200,7 @@ section.code {
 }
 
 .pace .pace-progress {
-  background: #fc8f4e !important;
+  background: #b4b496 !important;
 }
 
 .website__section {
@@ -236,7 +236,7 @@ section.code {
 }
 
 .website__section.section5 {
-  background-color: #fa9356;
+  background-color: #b4b496;
 }
 
 #website__footer.website__section {
@@ -347,7 +347,7 @@ section.code {
 .footer__title:active {
   -webkit-transition: 0s;
   transition: 0s;
-  color: #fa9356;
+  color: #b4b496;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -481,7 +481,7 @@ section.code {
 }
 
 .check-privacy a {
-  color: #fa9356;
+  color: #b4b496;
   text-decoration: none;
 }
 

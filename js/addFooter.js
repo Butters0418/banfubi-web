@@ -16,10 +16,10 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-1">ABOUT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-1">
             <ul class=" footer__list">
-              <li><a href="https://www.banfubi.com.tw/brandstory">品牌故事</a></li>
+              <li><a href="https://www.banfubi.com/">品牌故事</a></li>
               <li><a href="javascript:;" onclick="openContact('facebook','647460302534188')">Facebook粉絲團 </a></li>
-              <li><a href="https://www.banfubi.com.tw/ru9l56">myheart實體門市 </a></li>
-              <li><a href="https://www.banfubi.com.tw/pm6j8d">隱私權政策</a></li>
+              <li><a href="https://www.banfubi.com/pages/%E5%AF%A6%E9%AB%94%E9%96%80%E5%B8%826">實體門市 </a></li>
+              <li><a href="https://www.banfubi.com/pages/privacy-policy">隱私權政策</a></li>
             </ul>
           </div>
         </div>
@@ -28,10 +28,10 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-2">Q&A <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-2">
             <ul class="footer__list">
-              <li><a href="https://www.banfubi.com.tw/x7uc4m#pay">付款方式</a></li>
-              <li><a href="https://www.banfubi.com.tw/x7uc4m#shipping">出貨配送 </a></li>
-              <li><a href="https://www.banfubi.com.tw/x7uc4m#try">七天鑑賞期</a></li>
-              <li><a href="https://www.banfubi.com.tw/x7uc4m#invoice">電子發票相關</a></li>
+              <li><a href="https://www.banfubi.com/pages/%E4%BB%98%E6%AC%BE%E6%96%B9%E5%BC%8F">付款方式</a></li>
+              <li><a href="https://www.banfubi.com/pages/%E5%87%BA%E8%B2%A8%E9%85%8D%E9%80%8">出貨配送 </a></li>
+              <li><a href="https://www.banfubi.com/pages/%E4%B8%83%E5%A4%A9%E9%91%91%E8%B3%9E%E6%9C%9F">七天鑑賞期</a></li>
+              <li><a href="https://www.banfubi.com/pages/%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E7%9B%B8%E9%97%9C">電子發票相關</a></li>
             </ul>
           </div>
         </div>
@@ -40,7 +40,7 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-3">CONTACT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-3">
             <ul class="footer__list">
-              <li><a href="https://www.banfubi.com/" target="_blank">斑富比有限公司</></li>
+              <li><a href="https://www.banfubi.com/" target="_blank">斑富比有限公司</a></li>
               <li>客服電話:(02)2581-9665</li>
               <li>服務時間:週一至週五 10:00-18:00 </li>
               <li>廠商合作:lulu@banfubi.com</li>
@@ -51,9 +51,8 @@ $(function () {
         <div class="footer__pay mb">
           <a href=""><img src="https://butters0418.github.io/banfubi-web/img/visa.svg"></a>
           <a href=""><img src="https://butters0418.github.io/banfubi-web/img/mastercard.svg"></a>
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/linepay.png"></a>
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/newebpay.png"></a>
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/ssl.png"></a>
+          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/seven11.png"></a>
+          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/jcb.png"></a>
         </div>
 
         <div class="footer__copyright mb">

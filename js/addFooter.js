@@ -7,9 +7,9 @@ $(function () {
         </div>
         <!-- mb icon -->
         <div class="footer__social mb">
-          <a href="javascript:;" onclick="openContact('facebook','647460302534188')"><img src="https://butters0418.github.io/banfubi-web/img/fb.svg"></a>
+          <a href="https://www.facebook.com/search/top?q=lovon%20taiwan"><img src="https://butters0418.github.io/banfubi-web/img/fb.svg"></a>
           <a href="javascript:;" onclick="window.open('https://line.me/R/msg/text/?'+ (encodeURIComponent(document.title)) + '%0D%0A'+ (encodeURIComponent(location.href)), '_blank');"><img src="https://butters0418.github.io/banfubi-web/img/line.svg"></a>
-          <a href=""><img src="https://butters0418.github.io/banfubi-web/img/ig.svg"></a>
+          <a href="https://www.instagram.com/lovon_tw/"><img src="https://butters0418.github.io/banfubi-web/img/ig.svg"></a>
         </div>
 
         <div class="footer__collapse footer__aboutus">
@@ -17,8 +17,8 @@ $(function () {
           <div class="collapse show" id="footer-1">
             <ul class=" footer__list">
               <li><a href="https://www.banfubi.com/">品牌故事</a></li>
-              <li><a href="javascript:;" onclick="openContact('facebook','647460302534188')">Facebook粉絲團 </a></li>
-              <li><a href="https://www.banfubi.com/pages/%E5%AF%A6%E9%AB%94%E9%96%80%E5%B8%826">實體門市 </a></li>
+              <li><a href="https://www.facebook.com/search/top?q=lovon%20taiwan">Facebook粉絲團 </a></li>
+              <li><a href="https://www.banfubi.com/pages/%E5%AF%A6%E9%AB%94%E9%96%80%E5%B8%82">實體門市 </a></li>
               <li><a href="https://www.banfubi.com/pages/privacy-policy">隱私權政策</a></li>
             </ul>
           </div>

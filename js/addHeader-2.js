@@ -10,7 +10,7 @@ $(function () {
       <div class="nav__section">
         <a class="nav__section--logo" href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-white.png" alt="banhubi"></a>
         <ul class="nav__section--list">
-          <li class="nav__section--logomb"><a href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top.png"></a></li>
+          <li class="nav__section--logomb"><a href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top2.png"></a></li>
           <li><a href="https://www.banfubi.com/categories/%E5%85%A8%E9%83%A8%E5%95%86%E5%93%81">全部商品</a></li>
           <li><a href="https://www.banfubi.com.tw/0djga7">訂單查詢</a></li>
           <li><a href="https://www.banfubi.com/">品牌故事</a></li>

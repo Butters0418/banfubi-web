@@ -184,6 +184,12 @@ section.code {
   }
 }
 
+@media (max-width: 1200px) {
+  .navbar-nav > li > .sub {
+    background-color: #fafafa !important;
+  }
+}
+
 @media screen and (max-width: 767.98px) {
   .navbar {
     -webkit-box-shadow: none;

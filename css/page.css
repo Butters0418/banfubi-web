@@ -622,4 +622,8 @@ section.code {
   margin: 0;
   padding: 0 15px;
 }
+
+.copyright {
+  display: none !important;
+}
 /*# sourceMappingURL=page.css.map */

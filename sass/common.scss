@@ -71,9 +71,7 @@ section.code {
 .menu-cart {
   color: $mainColor !important;
 }
-.navbar-nav>li>.sub {
-  background-color: #fafafa !important;
-}
+
 @media (min-width: 1201px) {
   .html {
     padding-top: 96px;
@@ -113,6 +111,13 @@ section.code {
     }
   }
 }
+
+@media (max-width: 1200px){
+  .navbar-nav>li>.sub {
+    background-color: #fafafa !important;
+  }
+}
+
 @media screen and (max-width: 767.98px) {
   .navbar {
     box-shadow: none;

@@ -71,7 +71,9 @@ section.code {
 .menu-cart {
   color: $mainColor !important;
 }
-
+.navbar-nav>li>.sub {
+  background-color: #fafafa !important;
+}
 @media (min-width: 1201px) {
   .html {
     padding-top: 96px;

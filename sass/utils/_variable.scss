@@ -7,24 +7,24 @@
 
 // -- media query
 $size: (
-  laptop: '1400px',
-  wide: '1199.98px',
-  padLg: '991.98px',
-  pad: '767.98px',
-  mobile: '575.98px',
+  laptop: "1400px",
+  wide: "1199.98px",
+  padLg: "991.98px",
+  pad: "767.98px",
+  mobile: "575.98px",
 );
-$laptop: 'screen and(max-width: #{map-get($size,laptop)})';
-$wide: 'screen and(max-width: #{map-get($size,wide)})';
-$padLg: 'screen and(max-width: #{map-get($size,padLg)})';
-$pad: 'screen and(max-width: #{map-get($size,pad)})';
-$mobile: 'screen and(max-width: #{map-get($size,mobile)})';
+$laptop: "screen and (max-width: #{map-get($size,laptop)})";
+$wide: "screen and (max-width: #{map-get($size,wide)})";
+$padLg: "screen and (max-width: #{map-get($size,padLg)})";
+$pad: "screen and (max-width: #{map-get($size,pad)})";
+$mobile: "screen and (max-width: #{map-get($size,mobile)})";
 
 // --------------------------------- function
 
 // --------------------------------- extend
 %clear {
   &::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
   }
@@ -38,7 +38,7 @@ $mobile: 'screen and(max-width: #{map-get($size,mobile)})';
   }
 }
 %fontYen {
-  font-family: 'cwTeXYen';
+  font-family: "cwTeXYen";
   font-weight: 500;
   transform: scaleY(1.06);
 }

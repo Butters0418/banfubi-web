@@ -1,6 +1,11 @@
 //utils
 $mainColor: #b4b496;
-@import 'utils/variable';
+@import "utils/variable";
+
+//2023-04-05
+.footer {
+  display: none !important;
+}
 
 /* loading動畫 */
 .loading_mask {
@@ -67,10 +72,10 @@ $mainColor: #b4b496;
     }
   }
   .swiper-button-next {
-    background-image: url('../img/banner_right-arrow.png');
+    background-image: url("../img/banner_right-arrow.png");
   }
   .swiper-button-prev {
-    background-image: url('../img/banner_left-arrow.png');
+    background-image: url("../img/banner_left-arrow.png");
   }
   .swiper-pagination-bullets {
     @include media($mobile) {
@@ -112,7 +117,7 @@ $mainColor: #b4b496;
   margin-bottom: 50px;
   position: relative;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -15px;
     width: 120%;
@@ -130,7 +135,7 @@ $mainColor: #b4b496;
   }
   > img {
     margin-right: 10px;
-    max-width: 40px;
+    max-width: 40px !important;
   }
   @include media($pad) {
     font-size: 2rem;
@@ -175,7 +180,7 @@ $mainColor: #b4b496;
       padding: 8px 25px;
     }
     &:before {
-      content: '';
+      content: "";
       width: 120px;
       @include media($pad) {
         width: 102px;
@@ -229,7 +234,7 @@ $mainColor: #b4b496;
       }
     }
     &:after {
-      content: '';
+      content: "";
       display: inline-block;
       margin-left: 5px;
       margin-bottom: 3px;
@@ -393,7 +398,7 @@ $mainColor: #b4b496;
   .row {
     margin: 0 -6px;
   }
-  [class^='col'] {
+  [class^="col"] {
     padding: 0 6px;
     &:first-child {
       margin-bottom: 12px;
@@ -511,7 +516,7 @@ $mainColor: #b4b496;
       justify-content: center;
       margin-bottom: 20px;
       @include media($pad) {
-        [class^='col'] {
+        [class^="col"] {
           padding: 0 6px;
         }
         margin-bottom: 10px;
@@ -539,7 +544,7 @@ $mainColor: #b4b496;
         font-size: 1.2rem;
         position: relative;
         &:after {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           bottom: -2px;
@@ -569,7 +574,7 @@ $mainColor: #b4b496;
   @include media($pad) {
     padding-bottom: 10px;
   }
-  [class^='col'] {
+  [class^="col"] {
     margin-bottom: 20px;
     transition: 0.3s !important;
     &:hover {
@@ -583,7 +588,7 @@ $mainColor: #b4b496;
   @include media($mobile) {
     padding: 15px 20px;
   }
-  [class^='col'] {
+  [class^="col"] {
     @include media($mobile) {
       padding: 0 6px;
       margin-bottom: 10px;
@@ -607,14 +612,14 @@ $mainColor: #b4b496;
 }
 
 //品牌分類
-@import 'layout/brands';
+@import "layout/brands";
 //實體門市
-@import 'layout/shop';
+@import "layout/shop";
 //品牌故事
-@import 'layout/story';
+@import "layout/story";
 //q&a
-@import 'layout/qa';
+@import "layout/qa";
 //隱私政策
-@import 'layout/privacy';
+@import "layout/privacy";
 //更多商品
-@import 'layout/morepd';
+@import "layout/morepd";

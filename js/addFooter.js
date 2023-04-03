@@ -62,16 +62,16 @@ $(function () {
 
       </div>
     </section>`;
-  $('.page-content').after(footerHtml);
+  $(".page-single").after(footerHtml);
 
   if ($(window).width() < 768) {
-    $('#website__footer .collapse').removeClass('show');
+    $("#website__footer .collapse").removeClass("show");
   }
-  $('#website__footer .collapse').on('show.bs.collapse', function () {
-    $(this).prev().find('.footer__title--arrow').addClass('rotate');
+  $("#website__footer .collapse").on("show.bs.collapse", function () {
+    $(this).prev().find(".footer__title--arrow").addClass("rotate");
   });
-  $('#website__footer .collapse').on('hide.bs.collapse', function () {
-    $(this).prev().find('.footer__title--arrow').removeClass('rotate');
+  $("#website__footer .collapse").on("hide.bs.collapse", function () {
+    $(this).prev().find(".footer__title--arrow").removeClass("rotate");
   });
 
   let checkPrivacy =
@@ -83,21 +83,21 @@ $(function () {
 
   function addPrivacyText() {
     // 一般單頁式
-    $('.order-submit').before(checkPrivacy);
+    $(".order-submit").before(checkPrivacy);
 
     // 燈箱式先加入
-    $('#checkout .checkout-extra-help').after(checkPrivacy);
-    $('#checkout .check-privacy').css('display', 'none');
+    $("#checkout .checkout-extra-help").after(checkPrivacy);
+    $("#checkout .check-privacy").css("display", "none");
 
-    $('#checkout').on('shown.bs.modal', checkStep3);
-    $('#checkout [onclick^=checkout], #checkout button').on('click', checkStep3);
+    $("#checkout").on("shown.bs.modal", checkStep3);
+    $("#checkout [onclick^=checkout], #checkout button").on("click", checkStep3);
 
     function checkStep3() {
-      isStep3Hidden = $('form.step3').is(':hidden');
+      isStep3Hidden = $("form.step3").is(":hidden");
       if (isStep3Hidden) {
-        $('#checkout .check-privacy').css('display', 'none');
+        $("#checkout .check-privacy").css("display", "none");
       } else {
-        $('#checkout .check-privacy').css('display', 'block');
+        $("#checkout .check-privacy").css("display", "block");
       }
     }
   }

@@ -6,6 +6,9 @@ $mainColor: #b4b496;
 .footer {
   display: none !important;
 }
+.page-single .container {
+  max-width: none !important;
+}
 
 /* loading動畫 */
 .loading_mask {

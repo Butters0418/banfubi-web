@@ -10,6 +10,10 @@
   display: none !important;
 }
 
+.page-single .container {
+  max-width: none !important;
+}
+
 /* loading動畫 */
 .loading_mask {
   position: fixed;

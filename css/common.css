@@ -172,6 +172,13 @@ section.code {
   .head.bg_white-alpha .navbar-brand {
     max-width: 160px;
   }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
   .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -195,10 +202,17 @@ section.code {
     background-color: transparent;
   }
   .navbar .nav-item {
+    white-space: nowrap;
     padding: 0 12px;
   }
   .navbar .nav-item a {
     font-size: 1.5rem;
+  }
+  .head-tool {
+    position: relative;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
 }
 @media (max-width: 1200px) {

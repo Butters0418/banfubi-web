@@ -115,6 +115,10 @@ section.code {
       }
     }
   }
+  .navbar-nav {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -130,11 +134,16 @@ section.code {
       //   margin-left: auto;
       //   padding-right: 0;
       // }
+      white-space: nowrap;
       padding: 0 12px;
       a {
         font-size: 1.5rem;
       }
     }
+  }
+  .head-tool {
+    position: relative;
+    order: 1;
   }
 }
 

@@ -23,7 +23,7 @@ $(function () {
   </section>
   `;
 
-  $(".page-single").before(headerHtml);
+  $(".page-sale").before(headerHtml);
 
   $(".nav__btn").on("click", function (e) {
     e.preventDefault();

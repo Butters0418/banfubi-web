@@ -24,7 +24,7 @@ body {
   position: relative;
   padding-right: 0 !important;
   -webkit-overflow-scrolling: touch;
-  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft JhengHei', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Noto Sans TC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-stretch: expanded;
   line-height: 1;
 }
@@ -57,7 +57,6 @@ img {
 .mb {
   display: none;
 }
-
 @media screen and (max-width: 767.98px) {
   .mb {
     display: block;
@@ -71,12 +70,10 @@ section.code {
 .html > .container {
   max-width: 2560px !important;
 }
-
 .html > .container .editor {
   max-width: 1140px !important;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 767.98px) {
   .html > .container .editor:nth-child(2) {
     padding-top: 40px;
@@ -97,7 +94,6 @@ section.code {
   min-height: calc(100vh - 370px);
   overflow: hidden;
 }
-
 @media screen and (max-width: 767.98px) {
   .InWeb .page-content {
     min-height: 48vh;
@@ -119,35 +115,28 @@ section.code {
 .website__section {
   padding: 50px;
 }
-
 @media screen and (max-width: 991.98px) {
   .website__section {
     padding: 30px 20px;
   }
 }
-
 @media screen and (max-width: 575.98px) {
   .website__section {
     padding: 30px 10px;
   }
 }
-
 .website__section.section1 {
   background-color: #fff;
 }
-
 .website__section.section2 {
   background-color: #ffe8a9;
 }
-
 .website__section.section3 {
   background-color: #fff;
 }
-
 .website__section.section4 {
   background-color: #fff6e9;
 }
-
 .website__section.section5 {
   background-color: #fa9356;
 }
@@ -163,7 +152,6 @@ section.code {
     padding: 1.25rem 0;
   }
 }
-
 .section5 .section__inner {
   max-width: 1300px;
   display: -webkit-box;
@@ -175,7 +163,6 @@ section.code {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .footer__logo {
   width: 25%;
   padding: 1% 8%;
@@ -184,7 +171,6 @@ section.code {
 .footer__aboutus {
   width: 20%;
 }
-
 @media screen and (max-width: 767.98px) {
   .footer__aboutus {
     border-top: 1px solid #fff;
@@ -217,19 +203,16 @@ section.code {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 @media screen and (max-width: 1400px) {
   .footer__title {
     font-size: 1.4rem;
   }
 }
-
 @media screen and (max-width: 991.98px) {
   .footer__title {
     font-size: 1.2rem;
   }
 }
-
 @media screen and (max-width: 767.98px) {
   .footer__title {
     pointer-events: auto;
@@ -240,14 +223,12 @@ section.code {
     margin-bottom: 0;
   }
 }
-
 .footer__title:active {
   -webkit-transition: 0s;
   transition: 0s;
   color: #fa9356;
   background-color: rgba(255, 255, 255, 0.7);
 }
-
 .footer__title--arrow {
   position: absolute;
   top: 15px;
@@ -261,7 +242,6 @@ section.code {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .footer__title--arrow.rotate {
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
@@ -273,36 +253,30 @@ section.code {
   list-style: none;
   text-align: left;
 }
-
 @media screen and (max-width: 767.98px) {
   .footer__list {
     display: inline-block;
   }
 }
-
 .footer__list li {
   font-weight: 300;
   font-size: 1.25rem;
   line-height: 1.25;
   color: #fff;
 }
-
 .footer__list li:not(:last-child) {
   margin-bottom: 8px;
 }
-
 @media screen and (max-width: 1400px) {
   .footer__list li {
     font-size: 1.2rem;
   }
 }
-
 @media screen and (max-width: 991.98px) {
   .footer__list li {
     font-size: 1rem;
   }
 }
-
 @media screen and (max-width: 767.98px) {
   .footer__list li {
     text-align: center;
@@ -310,14 +284,12 @@ section.code {
     letter-spacing: 1px;
   }
 }
-
 .footer__list a {
   color: #fff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   display: block;
 }
-
 .footer__list a:hover {
   color: #fff;
   text-decoration: none;
@@ -326,13 +298,11 @@ section.code {
 .footer__social {
   padding: 15px 0;
 }
-
 .footer__social a {
   display: inline-block;
   margin: 0 10px;
   max-width: 15%;
 }
-
 .footer__social a img {
   width: 25px;
 }
@@ -340,13 +310,11 @@ section.code {
 .footer__pay {
   padding: 15px 0 5px;
 }
-
 .footer__pay a {
   display: inline-block;
   margin: 0 5px;
   max-width: 15%;
 }
-
 .footer__pay a img {
   width: 100%;
 }
@@ -354,11 +322,9 @@ section.code {
 .footer__copyright {
   padding: 0 0 15px;
 }
-
 .footer__copyright img {
   max-width: 130px;
 }
-
 .footer__copyright p {
   font-size: 12px;
   color: #fff;
@@ -378,12 +344,10 @@ section.code {
   position: relative;
   background-color: #fa9356;
 }
-
 #website-nav__container .website-nav {
   max-width: 1300px;
   margin: 0 auto;
 }
-
 #website-nav__container .nav__btn {
   background-color: #fa9356;
   position: fixed;
@@ -401,7 +365,6 @@ section.code {
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
 }
-
 @media screen and (max-width: 767.98px) {
   #website-nav__container .nav__btn {
     display: -webkit-box;
@@ -415,7 +378,6 @@ section.code {
         justify-content: space-around;
   }
 }
-
 #website-nav__container .nav__btn span {
   display: block;
   width: 100%;
@@ -423,13 +385,11 @@ section.code {
   background-color: #fff;
   border-radius: 20px;
 }
-
 #website-nav__container .nav__btn span:nth-child(2) {
   width: 70%;
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
-
 #website-nav__container .nav__section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,31 +401,25 @@ section.code {
       -ms-flex-align: center;
           align-items: center;
 }
-
 #website-nav__container .nav__section--logo {
   display: block;
   max-width: 150px;
 }
-
 #website-nav__container .nav__section--list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 #website-nav__container .nav__section--list li {
   display: inline-block;
   padding: 0 10px;
 }
-
 #website-nav__container .nav__section--list li.nav__section--logomb {
   display: none;
 }
-
 #website-nav__container .nav__section--list li.nav__section--logomb a {
   max-width: 150px;
 }
-
 #website-nav__container .nav__section--list a {
   display: block;
   padding: 10px 5px;
@@ -475,13 +429,11 @@ section.code {
   letter-spacing: 2px;
   position: relative;
 }
-
 #website-nav__container .nav__section--list a:hover:after {
   width: 100%;
 }
-
 #website-nav__container .nav__section--list a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   bottom: 0;
@@ -492,11 +444,9 @@ section.code {
   transition: 0.3s;
   background-color: #fff;
 }
-
 #website-nav__container .nav__section--close {
   display: none;
 }
-
 @media screen and (max-width: 767.98px) {
   #website-nav__container {
     background-color: transparent;
@@ -560,7 +510,7 @@ section.code {
     transition: 0.3s;
   }
   #website-nav__container .nav__section--close:before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 50%;
@@ -572,7 +522,7 @@ section.code {
     background-color: #fff;
   }
   #website-nav__container .nav__section--close:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 50%;
@@ -590,7 +540,7 @@ section.code {
     overflow: hidden;
   }
   body.nav--open:after {
-    content: '';
+    content: "";
     display: block;
     position: fixed;
     top: 0;
@@ -612,7 +562,6 @@ section.code {
   letter-spacing: 1px;
   margin: 20px 0 10px;
 }
-
 .check-privacy a {
   color: #fa9356;
   text-decoration: none;
@@ -625,5 +574,4 @@ section.code {
 
 .copyright {
   display: none !important;
-}
-/*# sourceMappingURL=page.css.map */
+}/*# sourceMappingURL=page.css.map */

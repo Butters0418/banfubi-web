@@ -835,7 +835,7 @@
   letter-spacing: 1px;
 }
 .website__shop--link img {
-  max-width: 20px;
+  max-width: 20px !important;
   margin-right: 15px;
 }
 .website__shop--link p {

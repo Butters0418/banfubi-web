@@ -1,6 +1,22 @@
 //utils
 $mainColor: #b4b496;
-@import 'init';
+@import "init";
+
+//2023-04-05
+.footer {
+  display: none !important;
+}
+.page-single {
+  padding-top: 150px;
+  @include media($wide) {
+    padding-top: 0;
+  }
+}
+.page-single .container {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
 .pc {
   @include media($pad) {
     display: none;
@@ -112,8 +128,8 @@ section.code {
   }
 }
 
-@media (max-width: 1200px){
-  .navbar-nav>li>.sub {
+@media (max-width: 1200px) {
+  .navbar-nav > li > .sub {
     background-color: #fafafa !important;
   }
 }

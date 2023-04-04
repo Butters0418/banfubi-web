@@ -1,6 +1,6 @@
-//utils
+//utils 與page 差 改主色
 $mainColor: #b4b496;
-@import 'init';
+@import "init";
 .pc {
   @include media($pad) {
     display: none;
@@ -36,6 +36,9 @@ section.code {
 #website .footer {
   display: none;
 }
+.footer {
+  display: none !important;
+}
 
 .InWeb .page-content {
   margin-bottom: 0;
@@ -51,7 +54,7 @@ section.code {
   background-color: #fff !important;
 }
 #loading .center {
-  opacity: 0;
+  opacity: 0 !important;
 }
 .pace .pace-progress {
   background: $mainColor !important;
@@ -328,7 +331,7 @@ section.code {
           width: 100%;
         }
         &:after {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           bottom: 0;
@@ -397,7 +400,7 @@ section.code {
         height: 35px;
         transition: 0.3s;
         &:before {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           top: 50%;
@@ -408,7 +411,7 @@ section.code {
           background-color: #fff;
         }
         &:after {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           top: 50%;
@@ -427,7 +430,7 @@ body {
     &.nav--open {
       overflow: hidden;
       &:after {
-        content: '';
+        content: "";
         display: block;
         position: fixed;
         top: 0;

@@ -64,6 +64,7 @@ $(function () {
     </section>`;
   $(".page-single").after(footerHtml);
   $(".page-archive").after(footerHtml);
+  $(".page-sale").after(footerHtml);
 
   if ($(window).width() < 768) {
     $("#website__footer .collapse").removeClass("show");

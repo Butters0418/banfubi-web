@@ -153,20 +153,20 @@ section.code {
 }
 
 @media (min-width: 1201px) {
-  .header {
+  .head {
     -webkit-box-shadow: none;
             box-shadow: none;
     padding: 8px 45px;
   }
-  .header.bg_white-alpha {
+  .head.bg_white-alpha {
     padding: 0 45px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  .header.bg_white-alpha .navbar-nav .nav-item .nav-link {
+  .head.bg_white-alpha .navbar-nav .nav-item .nav-link {
     font-size: 1.4rem;
   }
-  .header.bg_white-alpha .navbar-brand {
+  .head.bg_white-alpha .navbar-brand {
     max-width: 160px;
   }
   .navbar {

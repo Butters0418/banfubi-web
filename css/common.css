@@ -52,11 +52,13 @@ img {
   display: none !important;
 }
 
-.page-single {
+.page-single,
+.page-archive {
   padding-top: 150px;
 }
 @media screen and (max-width: 1199.98px) {
-  .page-single {
+  .page-single,
+  .page-archive {
     padding-top: 0;
   }
 }

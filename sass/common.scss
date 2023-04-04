@@ -6,7 +6,8 @@ $mainColor: #b4b496;
 .footer {
   display: none !important;
 }
-.page-single {
+.page-single,
+.page-archive {
   padding-top: 150px;
   @include media($wide) {
     padding-top: 0;

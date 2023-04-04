@@ -183,14 +183,14 @@ section.code {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
     padding-top: 12px;
-    padding-left: 30px;
+    padding-left: 15px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     -webkit-box-orient: horizontal;
@@ -207,12 +207,6 @@ section.code {
   }
   .navbar .nav-item a {
     font-size: 1.5rem;
-  }
-  .head-tool {
-    position: relative;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
   }
 }
 @media (max-width: 1200px) {

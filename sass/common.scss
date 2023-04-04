@@ -121,10 +121,10 @@ section.code {
   }
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
     padding-top: 12px;
-    padding-left: 30px;
+    padding-left: 15px;
     transition: 0.3s;
     flex-direction: row;
     box-shadow: none;
@@ -140,10 +140,6 @@ section.code {
         font-size: 1.5rem;
       }
     }
-  }
-  .head-tool {
-    position: relative;
-    order: 1;
   }
 }
 

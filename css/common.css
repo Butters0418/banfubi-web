@@ -120,17 +120,17 @@ section.code {
   }
 }
 
-.navbar {
+.head {
   position: fixed;
   width: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.navbar.bg_white-alpha {
+.head.bg_white-alpha {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
-.navbar > .container {
+.navbar {
   max-width: 1300px;
 }
 
@@ -153,26 +153,23 @@ section.code {
 }
 
 @media (min-width: 1201px) {
-  .html {
-    padding-top: 96px;
-  }
-  .navbar {
+  .header {
     -webkit-box-shadow: none;
             box-shadow: none;
     padding: 8px 45px;
   }
-  .navbar.bg_white-alpha {
+  .header.bg_white-alpha {
     padding: 0 45px;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  .navbar.bg_white-alpha .navbar-nav .nav-item .nav-link {
+  .header.bg_white-alpha .navbar-nav .nav-item .nav-link {
     font-size: 1.4rem;
   }
-  .navbar.bg_white-alpha .navbar-brand {
+  .header.bg_white-alpha .navbar-brand {
     max-width: 160px;
   }
-  .navbar-nav {
+  .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -187,14 +184,10 @@ section.code {
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  .navbar-nav .nav-item {
+  .navbar .nav-item {
     padding: 0 12px;
   }
-  .navbar-nav .nav-item:last-child {
-    margin-left: auto;
-    padding-right: 0;
-  }
-  .navbar-nav .nav-item a {
+  .navbar .nav-item a {
     font-size: 1.5rem;
   }
 }

@@ -63,8 +63,8 @@ section.code {
   }
 }
 
-//navabar
-.navbar {
+// 2023 04-05 nav bar 外層多了 head
+.head {
   position: fixed;
   width: 100%;
   transition: 0.3s;
@@ -72,9 +72,12 @@ section.code {
     background-color: rgba(#fff, 0.95);
   }
 }
-.navbar > .container {
+.navbar {
   max-width: 1300px;
 }
+// .navbar > .container {
+//   max-width: 1300px;
+// }
 .navbar-brand {
   max-width: 170px;
   transition: 0.3s;
@@ -90,10 +93,10 @@ section.code {
 }
 
 @media (min-width: 1201px) {
-  .html {
-    padding-top: 96px;
-  }
-  .navbar {
+  // .html {
+  //   padding-top: 96px;
+  // }
+  .header {
     box-shadow: none;
     padding: 8px 45px;
     &.bg_white-alpha {
@@ -109,7 +112,7 @@ section.code {
       }
     }
   }
-  .navbar-nav {
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -117,10 +120,10 @@ section.code {
     padding-left: 30px;
     transition: 0.3s;
     .nav-item {
-      &:last-child {
-        margin-left: auto;
-        padding-right: 0;
-      }
+      // &:last-child {
+      //   margin-left: auto;
+      //   padding-right: 0;
+      // }
       padding: 0 12px;
       a {
         font-size: 1.5rem;

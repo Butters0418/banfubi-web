@@ -123,6 +123,8 @@ section.code {
     padding-left: 30px;
     transition: 0.3s;
     flex-direction: row;
+    box-shadow: none;
+    background-color: transparent;
     .nav-item {
       // &:last-child {
       //   margin-left: auto;

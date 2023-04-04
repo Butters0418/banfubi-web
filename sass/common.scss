@@ -115,9 +115,14 @@ section.code {
       }
     }
   }
+  .head-tool {
+    top: auto;
+    bottom: 24px;
+  }
   .navbar-nav {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 10px;
   }
   .navbar {
     display: flex;
@@ -129,13 +134,18 @@ section.code {
     flex-direction: row;
     box-shadow: none;
     background-color: transparent;
+    > .container {
+      width: auto;
+      margin: 0;
+      padding: 0;
+    }
     .nav-item {
       // &:last-child {
       //   margin-left: auto;
       //   padding-right: 0;
       // }
       white-space: nowrap;
-      padding: 0 12px;
+      padding: 0;
       a {
         font-size: 1.5rem;
       }

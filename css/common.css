@@ -172,12 +172,17 @@ section.code {
   .head.bg_white-alpha .navbar-brand {
     max-width: 160px;
   }
+  .head-tool {
+    top: auto;
+    bottom: 24px;
+  }
   .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    margin-bottom: 10px;
   }
   .navbar {
     display: -webkit-box;
@@ -201,9 +206,14 @@ section.code {
             box-shadow: none;
     background-color: transparent;
   }
+  .navbar > .container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
   .navbar .nav-item {
     white-space: nowrap;
-    padding: 0 12px;
+    padding: 0;
   }
   .navbar .nav-item a {
     font-size: 1.5rem;

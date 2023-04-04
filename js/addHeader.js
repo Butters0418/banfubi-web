@@ -22,20 +22,19 @@ $(function () {
     </div>
   </section>
   `;
-  $('.page-content').before(headerHtml);
+  $(".page-single").before(headerHtml);
 
-  $('.nav__btn').on('click', function (e) {
+  $(".nav__btn").on("click", function (e) {
     e.preventDefault();
-    $('.nav__section').addClass('nav__section--show');
-    $('.nav__section--close').fadeIn(200);
-    $('body').addClass('nav--open')
-  })
+    $(".nav__section").addClass("nav__section--show");
+    $(".nav__section--close").fadeIn(200);
+    $("body").addClass("nav--open");
+  });
 
-  $('.nav__section--close').on('click', function (e) {
+  $(".nav__section--close").on("click", function (e) {
     e.preventDefault();
-    $('.nav__section--close').fadeOut(200);
-    $('.nav__section').removeClass('nav__section--show');
-    $('body').removeClass('nav--open')
-  })
-
+    $(".nav__section--close").fadeOut(200);
+    $(".nav__section").removeClass("nav__section--show");
+    $("body").removeClass("nav--open");
+  });
 });

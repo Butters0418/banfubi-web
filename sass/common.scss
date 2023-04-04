@@ -8,7 +8,7 @@ $mainColor: #b4b496;
 }
 .page-single,
 .page-archive {
-  padding-top: 150px;
+  padding-top: 96px;
   @include media($wide) {
     padding-top: 0;
   }
@@ -101,9 +101,9 @@ section.code {
   // }
   .head {
     box-shadow: none;
-    padding: 8px 45px;
+    padding: 0px 45px;
     &.bg_white-alpha {
-      padding: 0 45px;
+      // padding: 0 45px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       .navbar-nav {
         .nav-item .nav-link {
@@ -122,7 +122,7 @@ section.code {
   .navbar-nav {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   .navbar {
     display: flex;

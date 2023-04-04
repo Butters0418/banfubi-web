@@ -125,6 +125,8 @@ section.code {
   width: 100%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  z-index: 90;
+  background-color: #fff;
 }
 .head.bg_white-alpha {
   background-color: rgba(255, 255, 255, 0.95);
@@ -132,6 +134,7 @@ section.code {
 
 .navbar {
   max-width: 1300px;
+  margin: 0 auto;
 }
 
 .navbar-brand {
@@ -183,6 +186,10 @@ section.code {
     padding-left: 30px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .navbar .nav-item {
     padding: 0 12px;

@@ -18,7 +18,7 @@ $(function () {
             <ul class=" footer__list">
               <li><a href="https://www.banfubi.com/">品牌故事</a></li>
               <li><a href="https://www.facebook.com/Lovon.tw">Facebook粉絲團 </a></li>
-              <li><a href="https://www.banfubi.com/pages/%E5%AF%A6%E9%AB%94%E9%96%80%E5%B8%82">實體門市 </a></li>
+              <li><a href="https://lovonbaby.com/stores">實體門市 </a></li>
               <li><a href="https://www.banfubi.com/pages/privacy-policy">隱私權政策</a></li>
             </ul>
           </div>

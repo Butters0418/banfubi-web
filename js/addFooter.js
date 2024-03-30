@@ -40,10 +40,10 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-3">CONTACT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-3">
             <ul class="footer__list">
-              <li><a href="https://www.banfubi.com/">斑富比有限公司</a></li>
+              <li><a href="https://www.banfubi.com/">斑富比股份有限公司</a></li>
               <li>客服電話:(02)2581-9665</li>
               <li>服務時間:週一至週五 10:00-18:00 </li>
-              <li>廠商合作:lulu@banfubi.com</li>
+              <li>廠商合作:torrie@banfubi.com</li>
             </ul>
           </div>
         </div>

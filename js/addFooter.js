@@ -32,7 +32,7 @@ $(function () {
               <li><a href="https://www.banfubi.com/pages/%E4%BB%98%E6%AC%BE%E6%96%B9%E5%BC%8F">付款方式</a></li>
               <li><a href="https://www.banfubi.com/pages/出貨配送">出貨配送 </a></li>
               <li><a href="https://www.banfubi.com/pages/%E4%B8%83%E5%A4%A9%E9%91%91%E8%B3%9E%E6%9C%9F">七天鑑賞期</a></li>
-              <li><a href="https://www.banfubi.com/pages/%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E7%9B%B8%E9%97%9C">電子發票相關</a></li>
+              <li><a href="https://www.poshpaws.com.tw/collections/strollers">寵物推車</a></li>
             </ul>
           </div>
         </div>

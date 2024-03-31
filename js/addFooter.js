@@ -58,7 +58,7 @@ $(function () {
 
         <div class="footer__copyright mb">
           <img src="https://butters0418.github.io/banfubi-web/img/logo-white.png">
-          <p>2019-2022 © Banfubi Inc. All right reserved.</p>
+          <p>2019-2024 © Banfubi Inc. All right reserved.</p>
         </div>
 
       </div>

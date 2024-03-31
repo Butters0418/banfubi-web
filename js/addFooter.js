@@ -1,4 +1,5 @@
 $(function () {
+  // console.log('測試')
   let footerHtml = `<section id="website__footer" class="website__section section5">
       <div class="section__inner">
         <!-- pc footer logo  -->

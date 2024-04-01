@@ -44,7 +44,7 @@ $(function () {
               <li><a href="https://www.banfubi.com/">斑富比股份有限公司</a></li>
               <li>客服電話:(02)2581-9665</li>
               <li>服務時間:週一至週五 10:00-18:00 </li>
-              <li>廠商合作信箱:行銷企劃部torrie@banfubi.com</li>
+              <li>廠商合作信箱:torrie@banfubi.com</li>
             </ul>
           </div>
         </div>

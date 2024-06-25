@@ -11,11 +11,10 @@ $(function () {
         <a class="nav__section--logo" href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-white.png" alt="banhubi"></a>
         <ul class="nav__section--list">
           <li class="nav__section--logomb"><a href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top2.png"></a></li>
-          <li><a href="https://banfubi.com/collections">全部商品</a></li>
-          <li><a href="https://www.banfubi.com.tw/0djga7">訂單查詢</a></li>
-          <li><a href="https://www.banfubi.com/">品牌故事</a></li>
-          <li><a href="https://www.banfubi.com/pages/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C">Q&A相關查詢</a></li>
-          <li><a href="https://lovonbaby.com/stores">實體門市</a></li>
+          <li><a href="https://loobis.com.tw/">回到首頁</a></li>
+          <li><a href="https://lin.ee/jqrmbv2">訂單查詢</a></li>
+          <li><a href="https://loobis.com.tw/pages/%E9%97%9C%E6%96%BCloobis">品牌故事</a></li>
+          <li><a href="https://loobis.com.tw/pages/%E9%96%80%E5%B8%82%E8%B3%87%E8%A8%8A">實體門市</a></li>
         </ul>
         <a href="javascript:;" class="nav__section--close"></a>
       </div>

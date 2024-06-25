@@ -17,10 +17,10 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-1">ABOUT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-1">
             <ul class=" footer__list">
-              <li><a href="https://loobis.com.tw/pages/%E9%97%9C%E6%96%BCloobis">品牌故事</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61557470596478">Facebook粉絲團 </a></li>
-              <li><a href="https://loobis.com.tw/pages/%E9%96%80%E5%B8%82%E8%B3%87%E8%A8%8A">實體門市 </a></li>
-              <li><a href="https://loobis.com.tw/pages/%E9%9A%B1%E7%A7%81%E6%AC%8A%E8%81%B2%E6%98%8E">隱私權政策</a></li>
+              <li><a href="https://www.banfubi.com/">品牌故事</a></li>
+              <li><a href="https://www.facebook.com/Lovon.tw">Facebook粉絲團 </a></li>
+              <li><a href="https://lovonbaby.com/stores">實體門市 </a></li>
+              <li><a href="https://www.banfubi.com/pages/privacy-policy">隱私權政策</a></li>
             </ul>
           </div>
         </div>
@@ -29,7 +29,9 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-2">Q&A <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-2">
             <ul class="footer__list">
-              <li><a href="https://loobis.com.tw/pages/%E5%87%BA%E8%B2%A8%E9%85%8D%E9%80%81出貨配送">出貨配送 </a></li>
+              <li><a href="https://www.banfubi.com/pages/%E4%BB%98%E6%AC%BE%E6%96%B9%E5%BC%8F">付款方式</a></li>
+              <li><a href="https://www.banfubi.com/pages/出貨配送">出貨配送 </a></li>
+              <li><a href="https://www.banfubi.com/pages/%E4%B8%83%E5%A4%A9%E9%91%91%E8%B3%9E%E6%9C%9F">七天鑑賞期</a></li>
               <li><a href="https://www.poshpaws.com.tw/collections/strollers">寵物推車</a></li>
             </ul>
           </div>
@@ -39,7 +41,7 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-3">CONTACT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-3">
             <ul class="footer__list">
-              <li><a href="https://www.banfubi.com/">露比絲股份有限公司</a></li>
+              <li><a href="https://www.banfubi.com/">斑富比股份有限公司</a></li>
               <li>客服電話:(02)2581-9665</li>
               <li>服務時間:週一至週五 10:00-18:00 </li>
               <li>廠商合作信箱:torrie@banfubi.com</li>

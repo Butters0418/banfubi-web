@@ -13,9 +13,9 @@ $(function () {
           <li class="nav__section--logomb"><a href="https://www.banfubi.com/"><img src="https://butters0418.github.io/banfubi-web/img/logo-top2.png"></a></li>
           <li><a href="https://banfubi.com/collections">全部商品</a></li>
           <li><a href="https://www.banfubi.com.tw/0djga7">訂單查詢</a></li>
-          <li><a href="https://www.banfubi.com/">品牌故事</a></li>
+          <li><a href="https://www.lovonbaby.com/pages/about">品牌故事</a></li>
           <li><a href="https://www.banfubi.com/pages/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C">Q&A相關查詢</a></li>
-          <li><a href="https://lovonbaby.com/stores">實體門市</a></li>
+          <li><a href="https://banfubi.com/pages/%E9%BA%97%E5%AC%B0%E6%88%BF">實體門市</a></li>
         </ul>
         <a href="javascript:;" class="nav__section--close"></a>
       </div>

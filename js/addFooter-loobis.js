@@ -17,9 +17,9 @@ $(function () {
           <p class="footer__title" data-toggle="collapse" href="#footer-1">ABOUT US <span class="mb footer__title--arrow"></span></p>
           <div class="collapse show" id="footer-1">
             <ul class=" footer__list">
-              <li><a href="https://www.lovonbaby.com/pages/about">品牌故事</a></li>
+              <li><a href="https://www.banfubi.com/">品牌故事</a></li>
               <li><a href="https://www.facebook.com/Lovon.tw">Facebook粉絲團 </a></li>
-              <li><a href="https://banfubi.com/pages/%E9%BA%97%E5%AC%B0%E6%88%BF">實體門市 </a></li>
+              <li><a href="https://lovonbaby.com/stores">實體門市 </a></li>
               <li><a href="https://www.banfubi.com/pages/privacy-policy">隱私權政策</a></li>
             </ul>
           </div>
